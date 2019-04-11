@@ -1,0 +1,65 @@
+\begin{titlepage}
+
+\begin{center}
+\vspace*{-1in}
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=3.5cm]{./img/chapter0/logouv.jpg}
+\end{center}
+\end{figure}
+\begin{Large}
+Universidad Veracruzana
+\\
+\vspace*{0.15in}
+Facultad de Ingeniería de la construcción y el habitat \\
+\vspace*{0.6in}
+\end{Large}
+\begin{large}
+TESIS:\\
+\end{large}
+\vspace*{0.2in}
+\begin{Large}
+\textbf{Diseño y manufactura de un brazo robótico colaborativo multipropósito} \\
+\end{Large}
+\vspace*{0.3in}
+\begin{large}
+Presenta Ángel Ernesto Trujillo Elizondo, para obtener el grado de Maestría en Ingeniería Aplicada\\
+\end{large}
+\vspace*{0.3in}
+\rule{80mm}{0.1mm}\\
+\vspace*{0.1in}
+\begin{large}
+Asesor: \\
+José Alejandro Vasquez Santacruz \\
+\end{large}
+\end{center}
+\end{titlepage}
+
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Agradecimientos}
+\chapter*{Agradecimientos} 
+
+Agradezco al Consejo Nacional de Ciencia y Tecnología por el apoyo económico recibido durante la realización de este posgrado.
+
+Agradezco profundamente a mi asesor, el Dr. José Alejandro Vásquez Santacruz por su apoyo y paciencia durante la realización de esta investigación.
+
+A mi familia, muy en especial a mi hija. 
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Resumen}
+
+\chapter*{Resumen}
+Aquí va un resumen, pero cuando acabe.
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Abstract}
+
+\chapter*{Abstract}
+
+Here goes an abstract, but i'll do it when I finish.
+
