@@ -1,0 +1,4 @@
+
+\bibliography{references}
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliographystyle{ieeetr} 

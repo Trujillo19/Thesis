@@ -19,7 +19,7 @@ TESIS:\\
 \end{large}
 \vspace*{0.2in}
 \begin{Large}
-\textbf{Diseño y manufactura de un brazo robótico colaborativo multipropósito} \\
+\textbf{Diseño y manufactura de un brazo robótico colaborativo para sistemas de manufactura flexible} \\
 \end{Large}
 \vspace*{0.3in}
 \begin{large}
@@ -40,9 +40,8 @@ José Alejandro Vasquez Santacruz \\
 \listoffigures
 \listoftables
 
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Agradecimientos}
 \chapter*{Agradecimientos} 
+\addcontentsline{toc}{chapter}{Agradecimientos}
 
 Agradezco al Consejo Nacional de Ciencia y Tecnología por el apoyo económico recibido durante la realización de este posgrado.
 
@@ -50,16 +49,13 @@ Agradezco profundamente a mi asesor, el Dr. José Alejandro Vásquez Santacruz p
 
 A mi familia, muy en especial a mi hija. 
 
-\cleardoublepage
+\chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
 
-\chapter*{Resumen}
 Aquí va un resumen, pero cuando acabe.
 
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Abstract}
-
 \chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
 
 Here goes an abstract, but i'll do it when I finish.
 
