@@ -12,17 +12,14 @@ Los objetivos específicos se mencionan a continuación:
 \item Desarrollar el modelo matemático cinemático y dinámico de un brazo robótico de seis grados de libertad.
 \item Construir un brazo robótico de coste accesible y fácil fabricación, así como compartir su diseño y componentes con una licencia de código abierto. 
 \item Optimizar el modelado de piezas para su correcta manufactura con máquinas de manufactura aditiva.
+\item Desarrollar ¿utilizar? una metodología apegada a la ingeniería de sistemas basadas en modelos.
 \end{itemize}
 
 \section{Justificación}
 
 El desarrollo de un brazo robótico de seis grados de libertad para sistemas de manufactura flexible que se pretende realizar es relevante en diversos ámbitos del conocimiento. 
 
-\begin{comment}
-De acuerdo con Spong et al. \cite[p.~1]{Spong2005}, la mayoría de las aplicaciones de la robótica se centran en brazos robóticos industriales que operan en fabricas con entornos estructurados, sin embargo, a medida que la competencia en la industria se vuelve más intensa, se vuelve necesaria una nueva estrategia de manufactura, llamada sistema de manufactura flexible, en
-
-En el ámbito educativo, un brazo robótico de código abierto puede ser utilizado como elemento de estudio o réplica, así como para la realización de prácticas o trabajos posteriores sobre el mismo.
-
+Por último, al estar pensado como un desarrollo de código abierto, contribuirá al acervo tecnológico de la humanidad y podrá ser copiado, modificado y mejorado alrededor del mundo. 
 
 
 \section{Hipótesis}

@@ -2,6 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage[spanish]{babel}
+\usepackage{verbatim} 
+\usepackage{amsmath}
 \graphicspath{ {img/} }
 
 
@@ -9,8 +11,17 @@
 
 \include{chapter0/chapter0}
 \include{chapter1/chapter1}
+\include{chapter2/chapter2}
+\include{chapter3/chapter3}
+\include{chapter4/chapter4}
 \include{finalchapter/finalchapter}
 
+\begin{comment}
+Dudas:
+
+Al inicio del marco teórico de la tesis de Jacobo veo que describe los acontecimientos importantes hechos en el área de los robots bípedos y asistenciales, (lo que entiendo como estado del arte, marco teórico), pero hacia el final empieza a explicar conceptos básicos de robótica, algoritmos genéticos y demás.	
+
+\end{comment}
 
 
 

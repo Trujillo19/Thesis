@@ -2,3 +2,9 @@
 \bibliography{references}
 \addcontentsline{toc}{chapter}{Bibliografía}
 \bibliographystyle{ieeetr} 
+
+\chapter*{Anexos}
+\addcontentsline{toc}{chapter}{Anexos}
+\section*{Anexo 1. Un anexo bien chido}
+\addcontentsline{toc}{section}{Anexo 1. Código MATLAB}
+

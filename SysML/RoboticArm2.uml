@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_TD7ioF1PEem2zfoelSv5sg" name="RoboticArm2">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ThUCMF1PEem2zfoelSv5sg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_TiOBIF1PEem2zfoelSv5sg">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3nGfcF1hEem-b8Y3PVgjog" name="req Requirements [Robotic Arm]">
+      <packagedElement xmi:type="uml:Class" xmi:id="_6C1N8F1UEem2zfoelSv5sg" name="Material"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8L_S0F1UEem2zfoelSv5sg" name="Repeatability"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9pS-UF1UEem2zfoelSv5sg" name="Cost"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0MY_AF1UEem2zfoelSv5sg" name="Payload"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_17TX4F1UEem2zfoelSv5sg" name="Reach"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="__92a4F1UEem2zfoelSv5sg" name="Control"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_68uDUF1UEem2zfoelSv5sg" name="Power source"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3ZEWYF1UEem2zfoelSv5sg" name="Speed"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-me_UF1UEem2zfoelSv5sg" name="Easy fabrication"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7kBwYF1TEem2zfoelSv5sg" name="DOF"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ay5MgF1VEem2zfoelSv5sg" name="Emergency stop"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TfigkF1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TgMn4F1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TgUjsF1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TgVKwF1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TgaDQF1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TgaqUF1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TgcfgF1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TgdGkF1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TgeUsF1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tge7wF1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Tgfi0F1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tggw8F1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TghYAF1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tgh_EF1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TglpcF1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TgmQgF1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Tgm3kF1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TgoFsF1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ThRl8F1PEem2zfoelSv5sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThSNAF1PEem2zfoelSv5sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_7kHP8F1TEem2zfoelSv5sg" base_Class="_7kBwYF1TEem2zfoelSv5sg" id="RA-01" text="El brazo robótico deberá tener seis grados de libertad del tipo revoluta"/>
+  <Requirements:Requirement xmi:id="_0MfFoF1UEem2zfoelSv5sg" base_Class="_0MY_AF1UEem2zfoelSv5sg" id="RA-02" text="El brazo robótico deberá ser capáz de soportar una carga útli de 2 kg."/>
+  <Requirements:Requirement xmi:id="_17XpUF1UEem2zfoelSv5sg" base_Class="_17TX4F1UEem2zfoelSv5sg" id="RA-03" text="El brazo robótico deberá tener un alcance máximo de 450 mm."/>
+  <Requirements:Requirement xmi:id="_3ZJO4F1UEem2zfoelSv5sg" base_Class="_3ZEWYF1UEem2zfoelSv5sg" id="RA-04" text="El brazo robotico deberá trabajar a una velocidad mímima de 30°/s y máxima de 180°/s."/>
+  <Requirements:Requirement xmi:id="_6C5fYF1UEem2zfoelSv5sg" base_Class="_6C1N8F1UEem2zfoelSv5sg" id="RA-05" text="Se espera que el brazo robótico esté compuesto de partes plásticas y piezas de aluminio"/>
+  <Requirements:Requirement xmi:id="_68yUwF1UEem2zfoelSv5sg" base_Class="_68uDUF1UEem2zfoelSv5sg" id="RA-06" text="Se espera utilizar una fuenta de alimentación externa para disminuir el peso del brazo robótico"/>
+  <Requirements:Requirement xmi:id="_8MC9MF1UEem2zfoelSv5sg" base_Class="_8L_S0F1UEem2zfoelSv5sg" id="RA-07" text="Se espera que la repetibilidad del brazo robótico sea de ±1 mm."/>
+  <Requirements:Requirement xmi:id="_9pWosF1UEem2zfoelSv5sg" base_Class="_9pS-UF1UEem2zfoelSv5sg" id="RA-08" text="Se espera que el costo total de replicar el brazo robótico sea accesible"/>
+  <Requirements:Requirement xmi:id="_-mjQwF1UEem2zfoelSv5sg" base_Class="_-me_UF1UEem2zfoelSv5sg" id="RA-09" text="Se requiere que el brazo robótico sea optimizado para su realización con máquinas de manufactura aditiva"/>
+  <Requirements:Requirement xmi:id="__97TYF1UEem2zfoelSv5sg" base_Class="__92a4F1UEem2zfoelSv5sg" id="RA-10" text="El brazo robótico debe ser operado y programado a través de un dispositivo externo"/>
+  <Requirements:Requirement xmi:id="_Ay_TIF1VEem2zfoelSv5sg" base_Class="_Ay5MgF1VEem2zfoelSv5sg" id="RA-11" text="Se requiere que el brazo robótico cuente con un botón físico y de fácil acceso para detener la ejecución de cualquier movimiento."/>
+</xmi:XMI>
