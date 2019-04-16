@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  15 APR 2019 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  16 APR 2019 01:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -345,49 +345,54 @@ Package pdftex.def Info: ./img/chapter3/reqdiag.png  used on input line 7.
 
  (chapter4/chapter4.tex
 Cap\'{\i }tulo 4.
-<./img/chapter4/kinematicchain.png, id=46, 555.57562pt x 508.14844pt>
-File: ./img/chapter4/kinematicchain.png Graphic file (type png)
-<use ./img/chapter4/kinematicchain.png>
-Package pdftex.def Info: ./img/chapter4/kinematicchain.png  used on input line 
-10.
-(pdftex.def)             Requested size: 390.0pt x 356.70946pt.
+<./img/chapter4/kinematicchainv4.png, id=46, 604.50844pt x 478.03593pt>
+File: ./img/chapter4/kinematicchainv4.png Graphic file (type png)
+<use ./img/chapter4/kinematicchainv4.png>
+Package pdftex.def Info: ./img/chapter4/kinematicchainv4.png  used on input lin
+e 10.
+(pdftex.def)             Requested size: 390.0pt x 308.4074pt.
 ) [12
 
 
 
-] [13 <./img/chapter4/kinematicchain.png>]
+] [13 <./img/chapter4/kinematicchainv4.png>]
 \openout2 = `finalchapter/finalchapter.aux'.
 
- (finalchapter/finalchapter.tex
-(main.bbl) [14
+
+(finalchapter/finalchapter.tex (main.bbl) [14
 
 
 
 ]) [15
 
-] (main.aux (chapter0/chapter0.aux)
+] (main.aux
+(chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (chapter1/chapter1.aux) (chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapt
-er4/chapter4.aux)
-(finalchapter/finalchapter.aux)) ) 
+ (chapter1/chapter1.aux) (chapter2/chapter2.aux)
+(chapter3/chapter3.aux) (chapter4/chapter4.aux) (finalchapter/finalchapter.aux)
+) ) 
 Here is how much of TeX's memory you used:
  3139 strings out of 492946
- 45170 string characters out of 3124935
+ 45180 string characters out of 3124935
  120372 words of memory out of 3000000
  6930 multiletter control sequences out of 15000+200000
  9521 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,31p,333b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Trujillo/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Truj
-illo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
-><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmti12.pfb>
-Output written on main.pdf (16 pages, 524444 bytes).
+ 41i,7n,31p,335b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Trujillo/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Trujillo/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tru
+jillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
+b><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (16 pages, 565899 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
