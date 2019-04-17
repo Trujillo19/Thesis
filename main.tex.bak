@@ -18,12 +18,13 @@
 
 \begin{comment}
 Dudas:
-
-* Al inicio del marco teórico de la tesis de Jacobo veo que describe los acontecimientos importantes hechos en el área de los robots bípedos y asistenciales, (lo que entiendo como estado del arte, marco teórico), pero hacia el final empieza a explicar conceptos básicos de robótica, algoritmos genéticos y demás.	
-
-* Tengo dudas en la matriz de transformación homogenea, este video me confunde: https://www.youtube.com/watch?v=tAu8-gkxAcE . Ver la imagen en la carpeta auxiliar.
-
+Capítulo 1.
+* Al inicio del marco teórico de la tesis de Jacobo veo que describe los acontecimientos importantes hechos en el área de los robots bípedos y asistenciales, (lo que entiendo como estado del arte, marco teórico), pero hacia el final empieza a explicar conceptos básicos de robótica, algoritmos genéticos y demás.
+Capítulo 4.
+* Está bien mi cadena cinemática en comparación con el robot UR3?
+* Necesito 	un frame para el end-efector?
 * El punto de desplazamiento en la matriz de t.h. no debe variar aún con la rotación?
+* Tengo dudas en la matriz de transformación homogenea, este video me confunde: https://www.youtube.com/watch?v=tAu8-gkxAcE . Ver la imagen en la carpeta auxiliar.
 
 \end{comment}
 

@@ -16,6 +16,7 @@
 \contentsline {chapter}{\numberline {4}Modelo matem\IeC {\'a}tico}{12}% 
 \contentsline {section}{\numberline {4.1}Modelo cinem\IeC {\'a}tico}{12}% 
 \contentsline {subsection}{\numberline {4.1.1}Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea}{12}% 
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{14}% 
-\contentsline {chapter}{Anexos}{15}% 
-\contentsline {section}{Anexo 1. C\IeC {\'o}digo MATLAB}{15}% 
+\contentsline {subsection}{\numberline {4.1.2}Convenci\IeC {\'o}n de Denavit Hartenberg}{14}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{15}% 
+\contentsline {chapter}{Anexos}{16}% 
+\contentsline {section}{Anexo 1. C\IeC {\'o}digo MATLAB}{16}% 

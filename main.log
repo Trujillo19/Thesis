@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  16 APR 2019 01:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  17 APR 2019 01:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -345,25 +345,25 @@ Package pdftex.def Info: ./img/chapter3/reqdiag.png  used on input line 7.
 
  (chapter4/chapter4.tex
 Cap\'{\i }tulo 4.
-<./img/chapter4/kinematicchainv4.png, id=46, 604.50844pt x 478.03593pt>
-File: ./img/chapter4/kinematicchainv4.png Graphic file (type png)
-<use ./img/chapter4/kinematicchainv4.png>
-Package pdftex.def Info: ./img/chapter4/kinematicchainv4.png  used on input lin
+<./img/chapter4/kinematicchainv5.png, id=46, 626.34pt x 478.03593pt>
+File: ./img/chapter4/kinematicchainv5.png Graphic file (type png)
+<use ./img/chapter4/kinematicchainv5.png>
+Package pdftex.def Info: ./img/chapter4/kinematicchainv5.png  used on input lin
 e 10.
-(pdftex.def)             Requested size: 390.0pt x 308.4074pt.
-) [12
+(pdftex.def)             Requested size: 390.0pt x 297.663pt.
+[12
 
 
 
-] [13 <./img/chapter4/kinematicchainv4.png>]
+] [13 <./img/chapter4/kinematicchainv5.png>]) [14]
 \openout2 = `finalchapter/finalchapter.aux'.
 
 
-(finalchapter/finalchapter.tex (main.bbl) [14
+(finalchapter/finalchapter.tex (main.bbl) [15
 
 
 
-]) [15
+]) [16
 
 ] (main.aux
 (chapter0/chapter0.aux)
@@ -373,26 +373,27 @@ LaTeX Info: Redefining \% on input line 7.
 (chapter3/chapter3.aux) (chapter4/chapter4.aux) (finalchapter/finalchapter.aux)
 ) ) 
 Here is how much of TeX's memory you used:
- 3139 strings out of 492946
- 45180 string characters out of 3124935
- 120372 words of memory out of 3000000
- 6930 multiletter control sequences out of 15000+200000
+ 3140 strings out of 492946
+ 45205 string characters out of 3124935
+ 123383 words of memory out of 3000000
+ 6931 multiletter control sequences out of 15000+200000
  9521 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,31p,335b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,9n,31p,334b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Trujillo/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Trujillo/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tru
-jillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tru
+jillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
 b><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (16 pages, 565899 bytes).
+nts/cm/cmr17.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (17 pages, 580680 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
