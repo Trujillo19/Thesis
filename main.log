@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  17 APR 2019 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  21 APR 2019 23:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -278,20 +278,21 @@ Package pdftex.def Info: ./img/chapter0/logouv.jpg  used on input line 7.
 apter0/logouv.jpg>] (main.toc
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
-)
+ [1
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [1
-
-] (main.lof
+ [2]
+(main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [2
+ [3
 
 ] (main.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -300,29 +301,29 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [3
-
-] [4
+ [4
 
 ] [5
 
-]) [6
+] [6
+
+]) [7
 
 ]
 \openout2 = `chapter1/chapter1.aux'.
 
  (chapter1/chapter1.tex
 Cap\'{\i }tulo 1.
-[7
+[8
 
 
 
-]) [8]
+]) [9]
 \openout2 = `chapter2/chapter2.aux'.
 
  (chapter2/chapter2.tex
 Cap\'{\i }tulo 2.
-) [9
+) [10
 
 
 
@@ -331,39 +332,39 @@ Cap\'{\i }tulo 2.
 
  (chapter3/chapter3.tex
 Cap\'{\i }tulo 3.
-<./img/chapter3/reqdiag.png, id=37, 1264.725pt x 622.325pt>
+<./img/chapter3/reqdiag.png, id=40, 1264.725pt x 622.325pt>
 File: ./img/chapter3/reqdiag.png Graphic file (type png)
 <use ./img/chapter3/reqdiag.png>
 Package pdftex.def Info: ./img/chapter3/reqdiag.png  used on input line 7.
 (pdftex.def)             Requested size: 390.0pt x 191.9027pt.
-) [10
+) [11
 
 
 
-] [11 <./img/chapter3/reqdiag.png>]
+] [12 <./img/chapter3/reqdiag.png>]
 \openout2 = `chapter4/chapter4.aux'.
 
  (chapter4/chapter4.tex
 Cap\'{\i }tulo 4.
-<./img/chapter4/kinematicchainv5.png, id=46, 626.34pt x 478.03593pt>
+<./img/chapter4/kinematicchainv5.png, id=50, 626.34pt x 478.03593pt>
 File: ./img/chapter4/kinematicchainv5.png Graphic file (type png)
 <use ./img/chapter4/kinematicchainv5.png>
 Package pdftex.def Info: ./img/chapter4/kinematicchainv5.png  used on input lin
-e 10.
+e 8.
 (pdftex.def)             Requested size: 390.0pt x 297.663pt.
-[12
+[13
 
 
 
-] [13 <./img/chapter4/kinematicchainv5.png>]) [14]
+] [14 <./img/chapter4/kinematicchainv5.png>]) [15]
 \openout2 = `finalchapter/finalchapter.aux'.
 
 
-(finalchapter/finalchapter.tex (main.bbl) [15
+(finalchapter/finalchapter.tex (main.bbl) [16
 
 
 
-]) [16
+]) [17
 
 ] (main.aux
 (chapter0/chapter0.aux)
@@ -375,11 +376,11 @@ LaTeX Info: Redefining \% on input line 7.
 Here is how much of TeX's memory you used:
  3140 strings out of 492946
  45205 string characters out of 3124935
- 123383 words of memory out of 3000000
+ 123384 words of memory out of 3000000
  6931 multiletter control sequences out of 15000+200000
  9521 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,31p,334b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,9n,31p,334b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Trujillo/AppData/Local/Programs/Mi
@@ -391,9 +392,9 @@ nts/cm/cmr17.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (17 pages, 580680 bytes).
+Output written on main.pdf (18 pages, 582365 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

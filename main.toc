@@ -1,22 +1,26 @@
-\contentsline {chapter}{Agradecimientos}{4}% 
-\contentsline {chapter}{Resumen}{5}% 
-\contentsline {chapter}{Abstract}{6}% 
+\contentsline {chapter}{Agradecimientos}{5}% 
+\contentsline {chapter}{Resumen}{6}% 
+\contentsline {chapter}{Abstract}{7}% 
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{7}% 
-\contentsline {section}{\numberline {1.1}Objetivos}{7}% 
-\contentsline {section}{\numberline {1.2}Justificaci\IeC {\'o}n}{7}% 
-\contentsline {section}{\numberline {1.3}Hip\IeC {\'o}tesis}{8}% 
-\contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{9}% 
-\contentsline {section}{\numberline {2.1}Brazos rob\IeC {\'o}ticos}{9}% 
-\contentsline {section}{\numberline {2.2}Rob\IeC {\'o}tica colaborativa}{9}% 
-\contentsline {section}{\numberline {2.3}Sistemas de manufactura flexible}{9}% 
-\contentsline {section}{\numberline {2.4}Ingenier\IeC {\'\i }a de sistemas basado en modelos}{9}% 
-\contentsline {chapter}{\numberline {3}MBSE}{10}% 
-\contentsline {section}{\numberline {3.1}Diagrama de requerimientos}{10}% 
-\contentsline {chapter}{\numberline {4}Modelo matem\IeC {\'a}tico}{12}% 
-\contentsline {section}{\numberline {4.1}Modelo cinem\IeC {\'a}tico}{12}% 
-\contentsline {subsection}{\numberline {4.1.1}Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea}{12}% 
-\contentsline {subsection}{\numberline {4.1.2}Convenci\IeC {\'o}n de Denavit Hartenberg}{14}% 
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{15}% 
-\contentsline {chapter}{Anexos}{16}% 
-\contentsline {section}{Anexo 1. C\IeC {\'o}digo MATLAB}{16}% 
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{8}% 
+\contentsline {section}{\numberline {1.1}Objetivos}{8}% 
+\contentsline {section}{\numberline {1.2}Justificaci\IeC {\'o}n}{8}% 
+\contentsline {section}{\numberline {1.3}Hip\IeC {\'o}tesis}{9}% 
+\contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{10}% 
+\contentsline {section}{\numberline {2.1}Brazos rob\IeC {\'o}ticos}{10}% 
+\contentsline {section}{\numberline {2.2}Rob\IeC {\'o}tica colaborativa}{10}% 
+\contentsline {section}{\numberline {2.3}Sistemas de manufactura flexible}{10}% 
+\contentsline {section}{\numberline {2.4}Ingenier\IeC {\'\i }a de sistemas basado en modelos}{10}% 
+\contentsline {chapter}{\numberline {3}MBSE}{11}% 
+\contentsline {section}{\numberline {3.1}Diagrama de requerimientos}{11}% 
+\contentsline {chapter}{\numberline {4}Modelo matem\IeC {\'a}tico}{13}% 
+\contentsline {section}{\numberline {4.1}Modelo cinem\IeC {\'a}tico directo}{13}% 
+\contentsline {subsection}{\numberline {4.1.1}Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea}{13}% 
+\contentsline {subsection}{\numberline {4.1.2}Convenci\IeC {\'o}n de Denavit-Hartenberg}{15}% 
+\contentsline {section}{\numberline {4.2}Modelo cinem\IeC {\'a}tico inverso}{15}% 
+\contentsline {section}{\numberline {4.3}Modelo din\IeC {\'a}mico}{15}% 
+\contentsline {subsection}{\numberline {4.3.1}Formulaci\IeC {\'o}n Lagraniana}{15}% 
+\contentsline {subsection}{\numberline {4.3.2}Formulaci\IeC {\'o}n Newton-Euler}{15}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{16}% 
+\contentsline {chapter}{Anexos}{17}% 
+\contentsline {section}{Anexo 1. C\IeC {\'o}digo MATLAB}{17}% 

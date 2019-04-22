@@ -1,9 +1,7 @@
 \chapter{Modelo matemático}
 
-\section{Modelo cinemático}
+\section{Modelo cinemático directo}
 \subsection{Matriz de transformación homogénea}
-
-
 
 \begin{figure}
     \centering
@@ -11,8 +9,6 @@
     \caption{Cadena cinemática ¿free body diagram?}
     \label{fig:kinematicchain}
 \end{figure}
-
-
 
 \[
 {}_{0}^{1}T = 
@@ -72,7 +68,7 @@
 {}_{0}^{5}T = {}_{0}^{1}T {}_{1}^{2}T {}_{2}^{3}T {}_{3}^{4}T {}_{4}^{5}T 
 \]
 
-\subsection{Convención de Denavit Hartenberg}
+\subsection{Convención de Denavit-Hartenberg}
 
 
 \begin{table}[h]
@@ -90,3 +86,11 @@ Articulación 5 & 0                           & 0        & 0.08535 & $-\frac{\pi
 Articulación 6 & 0                           & 0        & 0.0819  & 0                                                 
 \end{tabular}
 \end{table}
+
+\section{Modelo cinemático inverso}
+
+No estoy seguro para que me servirá, si lo hará el software. MoveIt o MATLAB.
+
+\section{Modelo dinámico}
+\subsection{Formulación Lagraniana}
+\subsection{Formulación Newton-Euler}

@@ -25,6 +25,7 @@ Capítulo 4.
 * Necesito 	un frame para el end-efector?
 * El punto de desplazamiento en la matriz de t.h. no debe variar aún con la rotación?
 * Tengo dudas en la matriz de transformación homogenea, este video me confunde: https://www.youtube.com/watch?v=tAu8-gkxAcE . Ver la imagen en la carpeta auxiliar.
+* Desarrollar la parte dinámica con Lagrange o Newton-Euler
 
 \end{comment}
 
