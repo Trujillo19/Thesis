@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  21 APR 2019 23:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  23 APR 2019 13:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -167,6 +167,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\gensymb.sty
+"
+Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
@@ -175,18 +179,18 @@ LaTeX Info: Redefining \% on input line 7.
 (finalchapter/finalchapter.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
@@ -261,11 +265,23 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \celsius on input line 12.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 12.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 12.
+Package gensymb Info: Using \Omega for \ohm on input line 12.
+
+Package gensymb Warning: Not defining \micro.
+
 \openout2 = `chapter0/chapter0.aux'.
 
- (chapter0/chapter0.tex
+(chapter0/chapter0.tex
 <./img/chapter0/logouv.jpg, id=1, 380.3811pt x 330.2739pt>
 File: ./img/chapter0/logouv.jpg Graphic file (type jpg)
 <use ./img/chapter0/logouv.jpg>
@@ -284,15 +300,15 @@ LaTeX Info: Redefining \% on input line 4.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2]
-(main.lof
+ [2] (main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [3
+
+[3
 
 ] (main.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -346,55 +362,64 @@ Package pdftex.def Info: ./img/chapter3/reqdiag.png  used on input line 7.
 
  (chapter4/chapter4.tex
 Cap\'{\i }tulo 4.
-<./img/chapter4/kinematicchainv5.png, id=50, 626.34pt x 478.03593pt>
-File: ./img/chapter4/kinematicchainv5.png Graphic file (type png)
-<use ./img/chapter4/kinematicchainv5.png>
-Package pdftex.def Info: ./img/chapter4/kinematicchainv5.png  used on input lin
-e 8.
-(pdftex.def)             Requested size: 390.0pt x 297.663pt.
+<./img/chapter4/robotarmprototype.png, id=50, 117.94063pt x 277.53688pt>
+File: ./img/chapter4/robotarmprototype.png Graphic file (type png)
+<use ./img/chapter4/robotarmprototype.png>
+Package pdftex.def Info: ./img/chapter4/robotarmprototype.png  used on input li
+ne 21.
+(pdftex.def)             Requested size: 82.55786pt x 194.27448pt.
 [13
 
 
 
-] [14 <./img/chapter4/kinematicchainv5.png>]) [15]
+]
+<./img/chapter4/kinematicchainv5.png, id=55, 626.34pt x 478.03593pt>
+File: ./img/chapter4/kinematicchainv5.png Graphic file (type png)
+<use ./img/chapter4/kinematicchainv5.png>
+Package pdftex.def Info: ./img/chapter4/kinematicchainv5.png  used on input lin
+e 38.
+(pdftex.def)             Requested size: 390.0pt x 297.663pt.
+ [14 <./img/chapter4/robotarmprototype.png>] [15 <./img/chapter4/kinematicchain
+v5.png>]) [16] [17]
 \openout2 = `finalchapter/finalchapter.aux'.
 
-
-(finalchapter/finalchapter.tex (main.bbl) [16
-
+ (finalchapter/finalchapter.tex (main.bbl) [18
 
 
-]) [17
 
-] (main.aux
-(chapter0/chapter0.aux)
+])
+[19
+
+] (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (chapter1/chapter1.aux) (chapter2/chapter2.aux)
-(chapter3/chapter3.aux) (chapter4/chapter4.aux) (finalchapter/finalchapter.aux)
-) ) 
+ (chapter1/chapter1.aux)
+(chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapter4/chapter4.aux)
+(finalchapter/finalchapter.aux)) ) 
 Here is how much of TeX's memory you used:
- 3140 strings out of 492946
- 45205 string characters out of 3124935
- 123384 words of memory out of 3000000
- 6931 multiletter control sequences out of 15000+200000
+ 3195 strings out of 492946
+ 46121 string characters out of 3124935
+ 127674 words of memory out of 3000000
+ 6981 multiletter control sequences out of 15000+200000
  9521 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,31p,334b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Trujillo/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Trujillo/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tru
-jillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (18 pages, 582365 bytes).
+ 41i,9n,31p,347b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Trujillo/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Tru
+jillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Trujillo/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Trujill
+o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (20 pages, 612969 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

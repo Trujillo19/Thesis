@@ -5,7 +5,9 @@
 \usepackage{verbatim} 
 \usepackage{amsmath}
 \graphicspath{ {img/} }
-
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\usepackage{gensymb}
 
 \begin{document}
 
@@ -26,6 +28,11 @@ Capítulo 4.
 * El punto de desplazamiento en la matriz de t.h. no debe variar aún con la rotación?
 * Tengo dudas en la matriz de transformación homogenea, este video me confunde: https://www.youtube.com/watch?v=tAu8-gkxAcE . Ver la imagen en la carpeta auxiliar.
 * Desarrollar la parte dinámica con Lagrange o Newton-Euler
+
+
+Roadmap:
+*Dibujar el brazo robótico
+*Realizar el análisis dinámico para calcular torque.
 
 \end{comment}
 
