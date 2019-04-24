@@ -8,19 +8,26 @@ De acuerdo con \cite[p.~14]{Dombre2007}, el diseño y control de robots requiere
 \item Modelo dinámico, el cual establece la relación entre los torques o fuerzas que ejercen los actuadores y las posiciones, velocidades y aceleraciones de las articulaciones.
 \end{itemize}
 
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.7]{./img/chapter4/robotarmprototype.png}
+    \caption{Boceto del brazo robótico propuesto}
+    \label{fig:roboticarmprototype}
+\end{figure}
+
 En este capítulo se desarrollarán estos modelos matemáticos, los cuales son necesarios para simular y predecir el comportamiento del mismo. 
 
 Para realizar estos modelos, es necesario contar con los parámetros físicos y geométricos del robot, los cuales, para una primera aproximación se mencionarán a continuación.
 
 Como podemos apreciar en el diagrama de requerimientos de la figura \ref{fig:requirementdiagram}, es necesario que el robot tenga seis grados de libertad del tipo revoluta, así, el diagrama de cuerpo libre de la cadena cinemática se expresa en la figura \ref{fig:kinematicchain}.
 
-Otros requerimientos necesarios para el desarrollo del modelo matemático es el alcance total del brazo, el cual deberá ser de mínimo 450 mm, la velocidad, la cuál deberá estar en un rango entre 30\degree /s y 180\degree /s y la carga útil, que deberá ser de 2 kg.
+Otros requerimientos necesarios para el desarrollo del modelo matemático es el alcance total del brazo, el cual deberá ser de mínimo 450 mm, la velocidad, la cuál deberá estar en un rango entre 30 \degree/s y 180 \degree/s, por último, la carga útil deberá ser de 2 kg.
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.7]{./img/chapter4/robotarmprototype.png}
-    \caption{Boceto del brazo robótico propuesto}
-    \label{fig:roboticarmprototype}
+    \includegraphics[scale=0.45]{./img/chapter4/kinematicchainv5.png}
+    \caption{Cadena cinemática ¿free body diagram?}
+    \label{fig:kinematicchain}
 \end{figure}
 
 En la figura \ref{fig:roboticarmprototype} podemos ver un boceto del brazo robótico que se planea implementar.
@@ -31,15 +38,27 @@ Con estos datos claros, es posible empezar la realización de los modelos matem�
 
 \section{Cinemática directa e inversa}
 \subsection{Cinemática directa}
+
+La cinemática directa de un robot se refiere al cálculo de la posición y orientación del marco de referencia del efector final desde sus coordenadas $\theta$. \cite{University2017}
+
 \subsubsection{Matriz de transformación homogénea}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\textwidth]{./img/chapter4/kinematicchainv5.png}
-    \caption{Cadena cinemática ¿free body diagram?}
-    \label{fig:kinematicchain}
-\end{figure}
+Según \cite{University2017}, existen tres usos principales para una matriz de transformación homogénea:
 
+\begin{enumerate}
+  \item Para representar la configuración (posición y orientación) de un cuerpo rígido.
+  \item Para cambiar el marco de referencia en el cuál está representado un vector o un \textit{frame}.
+  \item Para desplazar un vector o un \textit{frame}.
+\end{enumerate}
+
+Para el caso que nos ocupa, la matriz de transformación homogénea desde la base fija del robot hasta su efector final, está descrita por:
+
+\begin{equation}
+\label{eq:forwardkinematicequation}
+{}_{0}^{6}T = {}_{0}^{1}T \ {}_{1}^{2}T \ {}_{2}^{3}T \ {}_{3}^{4}T \ {}_{4}^{5}T \ {}_{5}^{6}T 
+\end{equation}
+
+\begin{multicols}{2}
 \[
 {}_{0}^{1}T = 
 \begin{bmatrix}
@@ -95,8 +114,18 @@ Con estos datos claros, es posible empezar la realización de los modelos matem�
 \]
 
 \[
-{}_{0}^{5}T = {}_{0}^{1}T {}_{1}^{2}T {}_{2}^{3}T {}_{3}^{4}T {}_{4}^{5}T 
+{}_{5}^{6}T = 
+\begin{bmatrix}
+    1 & 0 & 0 & e_x  \\
+    0 & \cos{\theta_5} & -\sin{\theta_5} & e_y \\
+    0 & \sin{\theta_5} & \cos{\theta_5} & e_z \\
+    0 & 0 & 0 & 1
+\end{bmatrix}
 \]
+
+\end{multicols}
+
+Para comprobar que la matriz se realizó correctamente se programó un algoritmo en MATLAB que tiene como datos de entrada un vector con los seis ángulos del robot y calcula la posición del efector final usando el método descrito en esta sección, se puede consultar en el Anexo 1.
 
 \subsubsection{Convención de Denavit-Hartenberg}
 

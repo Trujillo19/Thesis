@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  23 APR 2019 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  23 APR 2019 23:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -171,6 +171,56 @@ LaTeX Info: Redefining \] on input line 2845.
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\gensymb.sty
 "
 Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.
+sty"
+Package: multicol 2018/11/09 v1.8u multicolumn formatting (FMi)
+\c@tracingmulticols=\count104
+\mult@box=\box29
+\multicol@leftmargin=\dimen115
+\c@unbalance=\count105
+\c@collectmore=\count106
+\doublecol@number=\count107
+\multicoltolerance=\count108
+\multicolpretolerance=\count109
+\full@width=\dimen116
+\page@free=\dimen117
+\premulticols=\dimen118
+\postmulticols=\dimen119
+\multicolsep=\skip46
+\multicolbaselineskip=\skip47
+\partial@page=\box30
+\last@line=\box31
+\maxbalancingoverflow=\dimen120
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count110
+\c@finalcolumnbadness=\count111
+\last@try=\dimen121
+\multicolovershoot=\dimen122
+\multicolundershoot=\dimen123
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\mc@col@check@num=\count112
 ) (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
@@ -179,32 +229,32 @@ LaTeX Info: Redefining \% on input line 7.
 (finalchapter/finalchapter.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen115
-\scratchbox=\box29
-\nofMPsegments=\count105
-\nofMParguments=\count106
+\scratchcounter=\count113
+\scratchdimen=\dimen124
+\scratchbox=\box55
+\nofMPsegments=\count114
+\nofMParguments=\count115
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen116
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen125
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks26
 )
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
@@ -265,17 +315,17 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-LaTeX Info: Redefining \celsius on input line 12.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 12.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \celsius on input line 13.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 13.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 12.
-Package gensymb Info: Using \Omega for \ohm on input line 12.
+LaTeX Info: Redefining \ohm on input line 13.
+Package gensymb Info: Using \Omega for \ohm on input line 13.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -366,21 +416,20 @@ Cap\'{\i }tulo 4.
 File: ./img/chapter4/robotarmprototype.png Graphic file (type png)
 <use ./img/chapter4/robotarmprototype.png>
 Package pdftex.def Info: ./img/chapter4/robotarmprototype.png  used on input li
-ne 21.
+ne 13.
 (pdftex.def)             Requested size: 82.55786pt x 194.27448pt.
+<./img/chapter4/kinematicchainv5.png, id=51, 626.34pt x 478.03593pt>
+File: ./img/chapter4/kinematicchainv5.png Graphic file (type png)
+<use ./img/chapter4/kinematicchainv5.png>
+Package pdftex.def Info: ./img/chapter4/kinematicchainv5.png  used on input lin
+e 28.
+(pdftex.def)             Requested size: 281.85039pt x 215.11418pt.
 [13
 
 
 
-]
-<./img/chapter4/kinematicchainv5.png, id=55, 626.34pt x 478.03593pt>
-File: ./img/chapter4/kinematicchainv5.png Graphic file (type png)
-<use ./img/chapter4/kinematicchainv5.png>
-Package pdftex.def Info: ./img/chapter4/kinematicchainv5.png  used on input lin
-e 38.
-(pdftex.def)             Requested size: 390.0pt x 297.663pt.
- [14 <./img/chapter4/robotarmprototype.png>] [15 <./img/chapter4/kinematicchain
-v5.png>]) [16] [17]
+] [14 <./img/chapter4/robotarmprototype.png> <./img/chapter4/kinematicchainv5.p
+ng>] [15]) [16] [17]
 \openout2 = `finalchapter/finalchapter.aux'.
 
  (finalchapter/finalchapter.tex (main.bbl) [18
@@ -397,10 +446,10 @@ LaTeX Info: Redefining \% on input line 7.
 (chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapter4/chapter4.aux)
 (finalchapter/finalchapter.aux)) ) 
 Here is how much of TeX's memory you used:
- 3195 strings out of 492946
- 46121 string characters out of 3124935
- 127674 words of memory out of 3000000
- 6981 multiletter control sequences out of 15000+200000
+ 3323 strings out of 492946
+ 48109 string characters out of 3124935
+ 136423 words of memory out of 3000000
+ 7106 multiletter control sequences out of 15000+200000
  9521 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,31p,347b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -417,7 +466,7 @@ o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (20 pages, 612969 bytes).
+Output written on main.pdf (20 pages, 614560 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
