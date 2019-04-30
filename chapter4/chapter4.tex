@@ -58,11 +58,11 @@ Según \cite{University2017}, existen tres usos principales para una matriz de t
     \label{fig:kinematicchain}
 \end{figure}
 
-Para el caso que nos ocupa, necesitamos la matriz de transformación homogénea desde la base fija del robot hasta su efector final, por esto, está descrita con ocho marcos de referencia y se obtiene con la ecuación siguiente:
+Para el caso que nos ocupa, necesitamos la matriz de transformación homogénea desde la base fija del robot hasta su efector final, por esto, está descrita con siete marcos de referencia y se obtiene con la ecuación siguiente:
 
 \begin{equation}
 \label{eq:forwardkinematicequation}
-{}_{0}^{8}T = {}_{0}^{1}T \ {}_{1}^{2}T \ {}_{2}^{3}T \ {}_{3}^{4}T \ {}_{4}^{5}T \ {}_{5}^{6}T {}_{6}^{7}T {}_{7}^{8}T
+{}_{0}^{8}T = {}_{0}^{1}T \ {}_{1}^{2}T \ {}_{2}^{3}T \ {}_{3}^{4}T \ {}_{4}^{5}T \ {}_{5}^{6}T {}_{6}^{7}T
 \end{equation}
 
 \begin{multicols}{2}
@@ -126,7 +126,7 @@ Para el caso que nos ocupa, necesitamos la matriz de transformación homogénea 
     0 & 0 & 0 & 1
 \end{bmatrix}
 \]
-
+% corregir para agregar tetha6
 \[
 {}_{6}^{7}T = 
 \begin{bmatrix}
@@ -141,17 +141,7 @@ Para el caso que nos ocupa, necesitamos la matriz de transformación homogénea 
 
 Para realizar la ecuación \ref{eq:forwardkinematicequation} se programó un algoritmo en MATLAB que tiene como datos de entrada un vector $tetha$ con los seis ángulos de las articulaciones del robot y calcula la posición del efector final. Dicho algoritmo se puede consultar en el Anexo 1.
 
-La matriz de transformación homogénea ${}_{0}^{6}T$ queda representada por:
 
-\[
-{}_{0}^{6}T = 
-\begin{bmatrix}
-    1 & 0 & 0 & e_x  \\
-    0 & \cos{\theta_5} & -\sin{\theta_5} & e_y \\
-    0 & \sin{\theta_5} & \cos{\theta_5} & e_z \\
-    0 & 0 & 0 & 1
-\end{bmatrix}
-\]
 
 \subsubsection{Convención de Denavit-Hartenberg}
 
