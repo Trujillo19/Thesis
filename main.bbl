@@ -18,4 +18,9 @@ K.~M.~N. University, I.~Lynch, and F.~C. S. N.~U. Park, {\em Modern Robotics}.
 P.~Corke, {\em Robotics, Vision and Control}.
 \newblock Springer International Publishing, 2017.
 
+\bibitem{Corke2007}
+P.~Corke, ``A simple and systematic approach to assigning
+  denavit{\textendash}hartenberg parameters,'' {\em {IEEE} Transactions on
+  Robotics}, vol.~23, pp.~590--594, jun 2007.
+
 \end{thebibliography}

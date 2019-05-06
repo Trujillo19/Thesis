@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {4.1}Cinem\IeC {\'a}tica directa e inversa}{14}% 
 \contentsline {subsection}{\numberline {4.1.1}Cinem\IeC {\'a}tica directa}{14}% 
 \contentsline {subsubsection}{\numberline {4.1.1.1}Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea}{14}% 
-\contentsline {subsubsection}{\numberline {4.1.1.2}Convenci\IeC {\'o}n de Denavit-Hartenberg}{16}% 
+\contentsline {subsubsection}{\numberline {4.1.1.2}Convenci\IeC {\'o}n de Denavit-Hartenberg}{15}% 
 \contentsline {subsection}{\numberline {4.1.2}Cinem\IeC {\'a}tica inversa}{16}% 
 \contentsline {section}{\numberline {4.2}Cinem\IeC {\'a}tica de la velocidad}{16}% 
 \contentsline {section}{\numberline {4.3}Modelo din\IeC {\'a}mico}{16}% 
@@ -25,4 +25,6 @@
 \contentsline {subsection}{\numberline {4.3.2}Formulaci\IeC {\'o}n Newton-Euler}{16}% 
 \contentsline {chapter}{Bibliograf\IeC {\'\i }a}{17}% 
 \contentsline {chapter}{Anexos}{18}% 
-\contentsline {section}{Anexo 1. Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea}{18}% 
+\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{18}% 
+\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{18}% 
+\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{19}% 

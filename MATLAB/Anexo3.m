@@ -1,6 +1,7 @@
 % Universidad Veracruzana
 % Tesis
 % Angel Trujillo
+
 clear;
 clc; 
 L1 = 0.152;
@@ -12,5 +13,6 @@ L6 = -0.104;
 L7 = 0.085;
 qn = [0 0 0 0 0 0];
 robotarm = myroboticarm(L1,L2,L3,L4,L5,L6,L7);
-robotarm.fkine(qn)
-
+robotarm.plot(qn)
+T = robotarm.fkine(qn)
+qi = robotarm.ikine(T)

@@ -45,7 +45,7 @@ Según \cite{University2017}, existen tres usos principales para una matriz de t
 Para el caso que nos ocupa, necesitamos la matriz de transformación homogénea desde la base fija del robot hasta su efector final, descrita con la ecuación siguiente:
 
 \begin{equation}
-\label{eq:forwardkinematicequation}
+\label{eq:homogeneustransformationmatrix}
 \begin{split}
 {}_{0}^{7}T = \mathscr{T}_z(a_1)\oplus\mathscr{R}_z(\theta_1)\oplus\mathscr{T}_x(b_1)\oplus\mathscr{R}_x(\theta_2)\oplus\mathscr{T}_z(c_1)\oplus\mathscr{R}_x(\theta_3) \\ \oplus\mathscr{T}_z(d_1)\oplus\mathscr{T}_x(d_2)\oplus\mathscr{R}_x(\theta_4)\oplus\mathscr{T}_x(e_1)\oplus\mathscr{R}_z(\theta_5)\oplus\mathscr{T}_z(f_1)\oplus\mathscr{R}_x(\theta_6)
 \end{split}
@@ -62,30 +62,35 @@ Para el caso que nos ocupa, necesitamos la matriz de transformación homogénea 
 En la imagen \ref{fig:kinematicchain} podemos observar la cadena cinemática de nuestro brazo robótico, fue creada con un algoritmo en MATLAB con ayuda de la herramienta Robotic Toolbox, desarrollada por Peter Corke \cite{Corke2017}, dicho código puede consultarse en el Anexo 1.
 
 
-
-
-
 \subsubsection{Convención de Denavit-Hartenberg}
 
+En muchas aplicaciones, es necesario representar los parámetros cinemáticos de forma simplificada con ayuda de la notación Denavit-Hartenberg, con esta, podemos hacer uso de algoritmos de solución para encontrar los valores dinámicos, planeación de trayectorias, simulaciones, entre otras.
+
+Peter Corke \cite{Corke2007} propuso un acercamiento sencillo y sistemático para convertir una matriz de transformación homogenea como la de la ecuación \ref{eq:homogeneustransformationmatrix} en los parámetros de Denavit-Hartenberg. 
+
+Se realizó dicho proceso con ayuda de Robotic Toolbox del mismo autor y se llegó a los resultados que se muestran en la tabla \ref{table:denavithartenberg}.
 
 \begin{table}[h]
 \centering
 \caption{Parámetros Denavit Hartenberg}
  \label{table:denavithartenberg}
 \begin{tabular}{l|l|l|l|l|}
-               & $\theta$ [rad] & a [m]    & d [m]   & $\alpha$ [rad]                        \\ 
+               & $\theta$ [rad] & d [m]    & a [m]   & $\alpha$ [rad]                        \\ 
 \hline
-Articulación 1 & 0                           & 0        & 0.1519  & $\frac{\pi}{2}$   \\
-Articulación 2 & 0                           & -0.24365 & 0       & 0                                                  \\
-Articulación 3 & 0                           & -0.21325 & 0       & 0                                                  \\
-Articulación 4 & 0                           & 0        & 0.11235 & $\frac{\pi}{2}$   \\
-Articulación 5 & 0                           & 0        & 0.08535 & $-\frac{\pi}{2}$  \\
-Articulación 6 & 0                           & 0        & 0.0819  & 0                                                 
+Articulación 1 & $\theta_1$              & 0.152    & 0       & $\frac{\pi}{2}$   \\
+Articulación 2 & $\theta_2$              & 0        & -0.244       & 0 \\
+Articulación 3 & $\theta_3$                  & 0 & -0.213       & 0                                                  \\
+Articulación 4 & $\theta_4$              & -0.012        & 0 & $-\frac{\pi}{2}$   \\
+Articulación 5 & $\theta_5$                        & 0.085        & 0 & $\frac{\pi}{2}$  \\
+Articulación 6 & $\theta_6$                           & 0        & 0  & $-\frac{\pi}{2}$                                                 
 \end{tabular}
 \end{table}
 
 \subsection{Cinemática inversa}
-No estoy seguro para que me servirá, si lo hará el software. MoveIt o MATLAB.
+
+De manera parecida a como se manejó en la sección anterior, la librería de Robotic Toolbox tiene un método establecido para calcular la cinemática inversa dada una matriz de transformación homogénea.
+
+En este texto se hará uso de la misma y no se abordará en mayor profundidad. 
 
 \section{Cinemática de la velocidad}
 
