@@ -29,16 +29,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9899495"
-     inkscape:cx="499.05547"
-     inkscape:cy="402.33386"
+     inkscape:cx="386.05488"
+     inkscape:cy="489.05104"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
+     inkscape:window-width="958"
+     inkscape:window-height="974"
+     inkscape:window-x="-10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      showguides="false" />
   <metadata
      id="metadata1693">
@@ -1667,5 +1667,26 @@
          style="stroke-width:0.38389733">x<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
    id="tspan4225">7</tspan></tspan></text>
-  </g>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="142.11903"
+       y="214.97917"
+       id="text1712"><tspan
+         sodipodi:role="line"
+         id="tspan1710"
+         x="142.11903"
+         y="214.97917"
+         style="stroke-width:0.26458332">(c</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1714"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'Times New Roman';font-style:italic;font-weight:normal;font-size:21.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Times New Roman, Italic';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"><flowRegion
+         id="flowRegion1716"><rect
+           id="rect1718"
+           width="57.986191"
+           height="29.436255"
+           x="330.58524"
+           y="793.23395" /></flowRegion><flowPara
+         id="flowPara1720"></flowPara></flowRoot>  </g>
 </svg>

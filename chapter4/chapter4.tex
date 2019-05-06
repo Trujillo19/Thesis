@@ -19,20 +19,11 @@ En este capítulo se desarrollarán estos modelos matemáticos, los cuales son n
 
 Para realizar estos modelos, es necesario contar con los parámetros físicos y geométricos del robot, los cuales, para una primera aproximación se mencionarán a continuación.
 
-Como podemos apreciar en el diagrama de requerimientos de la figura \ref{fig:requirementdiagram}, es necesario que el robot tenga seis grados de libertad del tipo revoluta, así, el diagrama de cuerpo libre de la cadena cinemática se expresa en la figura \ref{fig:kinematicchain}.
+%Insertar tabla de dimensiones y parámetros
 
-Otros requerimientos necesarios para el desarrollo del modelo matemático es el alcance total del brazo, el cual deberá ser de mínimo 450 mm, la velocidad, la cuál deberá estar en un rango entre 30 \degree/s y 180 \degree/s, por último, la carga útil deberá ser de 2 kg.
-
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.45]{./img/chapter4/kinematicchainv5.png}
-    \caption{Cadena cinemática ¿free body diagram?}
-    \label{fig:kinematicchain}
-\end{figure}
+Otros requerimientos necesarios para el desarrollo del modelo matemático es el alcance total del brazo, el cual deberá ser de mínimo 500 mm, la velocidad, la cuál deberá estar en un rango entre 5 RPM y 30 RPM, y por último, la carga útil deberá ser de 2 kg.
 
 En la figura \ref{fig:roboticarmprototype} podemos ver un boceto del brazo robótico que se planea implementar.
-
-Las distancias, masas e inercia de las articulaciones las podemos observar en la tabla x.
 
 Con estos datos claros, es posible empezar la realización de los modelos matemáticos.
 
@@ -51,95 +42,26 @@ Según \cite{University2017}, existen tres usos principales para una matriz de t
   \item Para desplazar un vector o un \textit{frame}.
 \end{enumerate}
 
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.7]{./img/chapter4/kinematicdiagram.png}
-    \caption{Diagrama cinemático}
-    \label{fig:kinematicchain}
-\end{figure}
-
-Para el caso que nos ocupa, necesitamos la matriz de transformación homogénea desde la base fija del robot hasta su efector final, por esto, está descrita con siete marcos de referencia y se obtiene con la ecuación siguiente:
+Para el caso que nos ocupa, necesitamos la matriz de transformación homogénea desde la base fija del robot hasta su efector final, descrita con la ecuación siguiente:
 
 \begin{equation}
 \label{eq:forwardkinematicequation}
-{}_{0}^{8}T = {}_{0}^{1}T \ {}_{1}^{2}T \ {}_{2}^{3}T \ {}_{3}^{4}T \ {}_{4}^{5}T \ {}_{5}^{6}T {}_{6}^{7}T
+\begin{split}
+{}_{0}^{7}T = \mathscr{T}_z(a_1)\oplus\mathscr{R}_z(\theta_1)\oplus\mathscr{T}_x(b_1)\oplus\mathscr{R}_x(\theta_2)\oplus\mathscr{T}_z(c_1)\oplus\mathscr{R}_x(\theta_3) \\ \oplus\mathscr{T}_z(d_1)\oplus\mathscr{T}_x(d_2)\oplus\mathscr{R}_x(\theta_4)\oplus\mathscr{T}_x(e_1)\oplus\mathscr{R}_z(\theta_5)\oplus\mathscr{T}_z(f_1)\oplus\mathscr{R}_x(\theta_6)
+\end{split}
 \end{equation}
 
-\begin{multicols}{2}
-% No hay rotación, sólo traslación
-\[
-{}_{0}^{1}T = 
-\begin{bmatrix}
-    1 & 0 & 0 & 0 \\
-    0 & 1 & 0 & 0 \\
-    0 & 0 & 1 & {a}_1 \\
-    0 & 0 & 0 & 1
-\end{bmatrix}
-\]
-% Hay rotación en oreintación y sobre tetha_1 = Rotz*Roty(90)
-\[
-{}_{1}^{2}T = 
-\begin{bmatrix}
-    0 & -s_{\theta_1} & c_{\theta_1} & -b_{1}c_{\theta_1}  \\
-    0 & c_{\theta_1} & s_{\theta_1} & b_{1}s_{\theta_1} \\
-    -1 & 0 & 0 & 0 \\
-    0 & 0 & 0 & 1
-\end{bmatrix}
-\]
-% Hay rotación en orientación y sobre tetha_2 = Rotz*Roty(-180)
-\[
-{}_{2}^{3}T = 
-\begin{bmatrix}
-    -c_{\theta_2} & -s_{\theta_2} & 0 & c_{1}c_{\theta_2}  \\
-    -s_{\theta_2} & c_{\theta_2} & 0 & c_{1}s_{\theta_2} \\
-    0 & 0 & -1 & -c_2 \\
-    0 & 0 & 0 & 1
-\end{bmatrix}
-\]
-% Hay rotación en orientación y sobre tetha_3 = Rotz*Roty(180)
-\[
-{}_{3}^{4}T = 
-\begin{bmatrix}
-    -c_{\theta_3} & -s_{\theta_3} & 0 & -d_{1}c_{\theta_3}  \\
-    -s_{\theta_3} & c_{\theta_3} & 0 & d_{1}s_{\theta_3} \\
-    0 & 0 & -1 & -d_2 \\
-    0 & 0 & 0 & 1
-\end{bmatrix}
-\]
-% Hay rotación en orientación y sobre tetha_4. Rotz*Roty(90)
-\[
-{}_{4}^{5}T = 
-\begin{bmatrix}
-    0 & -s_{\theta_4} & c_{\theta_4} & e_{1}c_{\theta_4}  \\
-    0 & c_{\theta_2} & s_{\theta_4} & e_{1}s_{\theta_4} \\
-    -1 & 0 & 0 & e_2 \\
-    0 & 0 & 0 & 1
-\end{bmatrix}
-\]
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.6]{./img/chapter4/KinematicDiagramML.png}
+    \caption{Cadena cinemática}
+    \label{fig:kinematicchain}
+\end{figure}
 
-\[
-{}_{5}^{6}T = 
-\begin{bmatrix}
-    0 & -s_{\theta_5} & -c_{\theta_5} & -f_{2}c_{\theta_5}  \\
-    0 & c_{\theta_5} & -s_{\theta_5} & f_{2}s_{\theta_5} \\
-    1 & 0 & 0 & f_1 \\
-    0 & 0 & 0 & 1
-\end{bmatrix}
-\]
-% corregir para agregar tetha6
-\[
-{}_{6}^{7}T = 
-\begin{bmatrix}
-    1 & 0 & 0 & 0 \\
-    0 & 1 & 0 & 0 \\
-    0 & 0 & 1 & {g}_1 \\
-    0 & 0 & 0 & 1
-\end{bmatrix}
-\]
 
-\end{multicols}
+En la imagen \ref{fig:kinematicchain} podemos observar la cadena cinemática de nuestro brazo robótico, fue creada con un algoritmo en MATLAB con ayuda de la herramienta Robotic Toolbox, desarrollada por Peter Corke \cite{Corke2017}, dicho código puede consultarse en el Anexo 1.
 
-Para realizar la ecuación \ref{eq:forwardkinematicequation} se programó un algoritmo en MATLAB que tiene como datos de entrada un vector $tetha$ con los seis ángulos de las articulaciones del robot y calcula la posición del efector final. Dicho algoritmo se puede consultar en el Anexo 1.
+
 
 
 

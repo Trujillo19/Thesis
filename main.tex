@@ -10,6 +10,7 @@
 \usepackage{gensymb}
 \usepackage{multicol}
 \usepackage{matlab-prettifier}
+\usepackage{ mathrsfs }
 
 \begin{document}
 
@@ -24,17 +25,22 @@
 Dudas:
 Capítulo 1.
 * Al inicio del marco teórico de la tesis de Jacobo veo que describe los acontecimientos importantes hechos en el área de los robots bípedos y asistenciales, (lo que entiendo como estado del arte, marco teórico), pero hacia el final empieza a explicar conceptos básicos de robótica, algoritmos genéticos y demás.
+Capítulo 3.
+No idea.
 Capítulo 4.
-* Está bien mi cadena cinemática en comparación con el robot UR3?
-* Necesito 	un frame para el end-efector?
-* El punto de desplazamiento en la matriz de t.h. no debe variar aún con la rotación?
+* Está bien mi cadena cinemática en comparación con el robot UR3? Creo que no
+* Necesito 	un frame para el end-efector? Si, lo necesitas.
+* El punto de desplazamiento en la matriz de t.h. no debe variar aún con la rotación? Al contrario, debe tomar en cuenta la rotación.
 * Tengo dudas en la matriz de transformación homogenea, este video me confunde: https://www.youtube.com/watch?v=tAu8-gkxAcE . Ver la imagen en la carpeta auxiliar.
 * Desarrollar la parte dinámica con Lagrange o Newton-Euler
 
 
 Roadmap:
 *Dibujar el brazo robótico
+*Realizar el análisis cinemático para fk & ik
 *Realizar el análisis dinámico para calcular torque.
+*Empezar con la parte eléctrica, selección de componentes, BOM, (ODrive, Brushless servo)
+*Realizar la simulación con URDF para ROS
 
 \end{comment}
 
