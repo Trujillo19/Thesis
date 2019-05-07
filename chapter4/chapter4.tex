@@ -128,6 +128,25 @@ Articulación 6 & $\theta_6$                           & 0        & 0  & $-\frac
 
 Cabe destacar que algunos de los parámetros dinámicos son una aproximación optimista, al no tener aún un diseño final ni todos los componentes seleccionados, sin embargo, es funcional para una primera iteración del torque necesario para empezar la selección de componentes.
 
-Con los datos del cuadro \ref{table:dynamics} se selecciona los torques máximos en el escenario más demandante, este es cuando el brazo se encuentra completamente extendido a lo largo del plano X-Y.
+Con los datos del cuadro \ref{table:dynamics} se selecciona los torques máximos en el escenario más demandante, esto es en una trayectoria en la cuál cada una de las articulaciones se somete a una mayor fuerza.
+
+Con todos los datos correctamente particularizados, obtenemos una lista con todos los valores máximos, se puede apreciar en el cuadro \ref{table:maxtorque}. 
+
+\begin{table}[h]
+\centering
+\caption{Torque máximo por articulación}
+\label{table:maxtorque}
+\begin{tabular}{l|l|l|l|l|}
+               & $\theta$ [rad] & d [m]    & a [m]   & $\alpha$ [rad]                        \\ 
+\hline
+Articulación 1 & $\theta_1$              & 0.152    & 0       & $\frac{\pi}{2}$   \\
+Articulación 2 & $\theta_2$              & 0        & -0.244       & 0 \\
+Articulación 3 & $\theta_3$                  & 0 & -0.213       & 0                                                  \\
+Articulación 4 & $\theta_4$              & -0.012        & 0 & $-\frac{\pi}{2}$   \\
+Articulación 5 & $\theta_5$                        & 0.085        & 0 & $\frac{\pi}{2}$  \\
+Articulación 6 & $\theta_6$                           & 0        & 0  & $-\frac{\pi}{2}$                                                 
+\end{tabular}
+\end{table}
+
 
   

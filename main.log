@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  7 MAY 2019 14:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  7 MAY 2019 17:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -450,7 +450,7 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (chapter1/chapter1.aux)
 (chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapter4/chapter4.aux)
-(finalchapter/finalchapter.aux))
+(chapter5/chapter5.aux) (finalchapter/finalchapter.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -664,7 +664,20 @@ File: ./img/chapter4/KinematicDiagramML.png Graphic file (type png)
 Package pdftex.def Info: ./img/chapter4/KinematicDiagramML.png  used on input l
 ine 56.
 (pdftex.def)             Requested size: 386.64748pt x 308.05324pt.
- [15 <./img/chapter4/KinematicDiagramML.png>] [16]) [17]
+ [15 <./img/chapter4/KinematicDiagramML.png>] [16]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [17] [18]
+\openout2 = `chapter5/chapter5.aux'.
+
+ (chapter5/chapter5.tex
+Cap\'{\i }tulo 5.
+) [19
+
+
+
+]
 \openout2 = `finalchapter/finalchapter.aux'.
 
  (finalchapter/finalchapter.tex (main.bbl
@@ -673,7 +686,7 @@ Underfull \hbox (badness 1248) in paragraph at lines 22--25
 ning de-na-
  []
 
-) [18
+) [20
 
 
 
@@ -683,40 +696,40 @@ LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 5.
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmtt.fd
 "
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [19
+) [21
 
-]) (MATLAB/Anexo2.m [20]) (MATLAB/Anexo3.m)) [21] (main.aux
-(chapter0/chapter0.aux)
+]) [22] (MATLAB/Anexo2.m) (MATLAB/Anexo3.m) [23] (MATLAB/Anexo4.m
+[24])) [25] (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (chapter1/chapter1.aux) (chapter2/chapter2.aux)
-(chapter3/chapter3.aux) (chapter4/chapter4.aux) (finalchapter/finalchapter.aux)
-) ) 
+ (chapter1/chapter1.aux)
+(chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapter4/chapter4.aux)
+(chapter5/chapter5.aux) (finalchapter/finalchapter.aux)) ) 
 Here is how much of TeX's memory you used:
- 6218 strings out of 492946
- 88181 string characters out of 3124935
- 254968 words of memory out of 3000000
- 9938 multiletter control sequences out of 15000+200000
+ 6243 strings out of 492946
+ 88675 string characters out of 3124935
+ 272283 words of memory out of 3000000
+ 9951 multiletter control sequences out of 15000+200000
  11495 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,15n,58p,469b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Trujillo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
-600\tctt1200.pk><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Trujillo/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Trujil
-lo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr17.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Trujillo/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:
-/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs1
-0.pfb>
-Output written on main.pdf (22 pages, 628957 bytes).
+ <C:\Users\Trujillo\A
+ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1200.pk><C:/User
+s/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Trujillo/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Trujillo/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/
+Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Trujillo/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Trujillo/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (26 pages, 634986 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -22,8 +22,10 @@
 \contentsline {section}{\numberline {4.2}Cinem\IeC {\'a}tica de la velocidad}{16}% 
 \contentsline {section}{\numberline {4.3}Modelo din\IeC {\'a}mico}{16}% 
 \contentsline {subsection}{\numberline {4.3.1}Formulaci\IeC {\'o}n Newton-Euler}{17}% 
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{18}% 
-\contentsline {chapter}{Anexos}{19}% 
-\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{19}% 
-\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{20}% 
-\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{21}% 
+\contentsline {chapter}{\numberline {5}Componentes el\IeC {\'e}ctricos}{19}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{20}% 
+\contentsline {chapter}{Anexos}{21}% 
+\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{21}% 
+\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{23}% 
+\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{23}% 
+\contentsline {section}{Anexo 2. Din\IeC {\'a}mica}{24}% 

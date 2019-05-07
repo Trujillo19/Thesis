@@ -1,8 +1,8 @@
-function roboticarm = myroboticarm(L1,L2,L3,L4,L5,L6,L7,m,r,I1,I2,I3,I4,I5,I6,Jm,B,Tc,G)
+function roboticarm = myroboticarm(L1,L2,L3,L4,L5,L6,L7,m,r,I1,I2,I3,I4,I5,I6,Jm,B,Tc,G,payload)
 %This function crea un objeto del tipo SerialLink
 % Con los parametros de mi brazo robotico
 
-s = 'Tz(L1).Rz(q1).Tx(L2).Rx(q2).Tz(L3).Rx(q3).Tx(L4).Tz(L5).Rx(q4).Tx(L6).Rz(q5).Tz(L7).Rx(q6)';
+s = 'Rz(q1) Tz(L1) Tx(L2) Rx(q2) Tz(L3) Rx(q3) Tx(L4) Tz(L5) Rx(q4) Tx(L6) Rz(q5) Tz(L7) Rx(q6)';
 dh = DHFactor(s);
 roboticarm = eval(dh.command('roboticarm'))
 
@@ -55,4 +55,6 @@ roboticarm.links(1,6).B = B(6);
 roboticarm.links(1,6).Tc = Tc(6);
 roboticarm.links(1,6).G = G(6);
 
+roboticarm.payload(payload, [0 0 0]);
+roboticarm.base = SE3(0, 0, 0); 
 
