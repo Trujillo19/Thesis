@@ -13,4 +13,5 @@ L7 = 0.085;
 qn = [0 0 0 0 0 0];
 robotarm = myroboticarm(L1,L2,L3,L4,L5,L6,L7);
 robotarm.fkine(qn)
+robotarm.plot(qn)
 

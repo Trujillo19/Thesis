@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  6 MAY 2019 01:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  7 MAY 2019 14:15
 entering extended mode
 **./main.tex
 (main.tex
@@ -664,7 +664,7 @@ File: ./img/chapter4/KinematicDiagramML.png Graphic file (type png)
 Package pdftex.def Info: ./img/chapter4/KinematicDiagramML.png  used on input l
 ine 56.
 (pdftex.def)             Requested size: 386.64748pt x 308.05324pt.
- [15 <./img/chapter4/KinematicDiagramML.png>]) [16]
+ [15 <./img/chapter4/KinematicDiagramML.png>] [16]) [17]
 \openout2 = `finalchapter/finalchapter.aux'.
 
  (finalchapter/finalchapter.tex (main.bbl
@@ -673,20 +673,19 @@ Underfull \hbox (badness 1248) in paragraph at lines 22--25
 ning de-na-
  []
 
-) [17
+) [18
 
 
 
 ] (MATLAB/myroboticarm.m
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 11.
-
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 5.
 
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmtt.fd
 "
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)) (MATLAB/Anexo2.m [18
+) [19
 
-]) (MATLAB/Anexo3.m)) [19] (main.aux
+]) (MATLAB/Anexo2.m [20]) (MATLAB/Anexo3.m)) [21] (main.aux
 (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
@@ -694,13 +693,13 @@ LaTeX Info: Redefining \% on input line 7.
 (chapter3/chapter3.aux) (chapter4/chapter4.aux) (finalchapter/finalchapter.aux)
 ) ) 
 Here is how much of TeX's memory you used:
- 6210 strings out of 492946
- 88118 string characters out of 3124935
- 216957 words of memory out of 3000000
- 9930 multiletter control sequences out of 15000+200000
+ 6218 strings out of 492946
+ 88181 string characters out of 3124935
+ 254968 words of memory out of 3000000
+ 9938 multiletter control sequences out of 15000+200000
  11495 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,15n,58p,396b,1851s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,15n,58p,469b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Trujillo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
 600\tctt1200.pk><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTe
@@ -715,9 +714,9 @@ ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Trujillo/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:
 /Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs1
 0.pfb>
-Output written on main.pdf (20 pages, 624835 bytes).
+Output written on main.pdf (22 pages, 628957 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
