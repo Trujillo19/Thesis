@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  13 AUG 2019 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  13 AUG 2019 21:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -445,6 +445,16 @@ Package: listings 2019/02/27 1.8b (Carsten Heinz)
 fs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
+)
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumit
+em.sty"
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip51
+\enit@outerparindent=\dimen128
+\enit@toks=\toks27
+\enit@inbox=\box57
+\enit@count@id=\count124
+\enitdp@description=\count125
 ) (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
@@ -454,40 +464,40 @@ LaTeX Info: Redefining \% on input line 7.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
  ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd
 "
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 20.
 
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count124
-\scratchdimen=\dimen128
-\scratchbox=\box57
-\nofMPsegments=\count125
-\nofMParguments=\count126
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count127
-\MPscratchDim=\dimen129
-\MPnumerator=\count128
-\makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count126
+\scratchdimen=\dimen129
+\scratchbox=\box58
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen130
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks29
 )
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
 df-base.sty"
@@ -547,20 +557,20 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
 \symgns@font=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 15.
-Package gensymb Info: Math companion symbols declared on input line 15.
-LaTeX Info: Redefining \degree on input line 15.
-LaTeX Info: Redefining \celsius on input line 15.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 20.
+Package gensymb Info: Math companion symbols declared on input line 20.
+LaTeX Info: Redefining \degree on input line 20.
+LaTeX Info: Redefining \celsius on input line 20.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 15.
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \textohm for \ohm on input line 15.
-Package gensymb Info: Using \textmu for \micro on input line 15.
-\c@lstlisting=\count130
+erthousand on input line 20.
+LaTeX Info: Redefining \ohm on input line 20.
+Package gensymb Info: Using \textohm for \ohm on input line 20.
+Package gensymb Info: Using \textmu for \micro on input line 20.
+\c@lstlisting=\count132
 \openout2 = `chapter0/chapter0.aux'.
 
  (chapter0/chapter0.tex
@@ -659,22 +669,18 @@ ne 13.
 
 
 ] [14 <./img/chapter4/robotarmprototype.png>]
-<./img/chapter4/KinematicDiagramML.png, id=60, 644.4075pt x 513.41812pt>
+<./img/chapter4/KinematicDiagramML.png, id=59, 644.4075pt x 513.41812pt>
 File: ./img/chapter4/KinematicDiagramML.png Graphic file (type png)
 <use ./img/chapter4/KinematicDiagramML.png>
 Package pdftex.def Info: ./img/chapter4/KinematicDiagramML.png  used on input l
 ine 56.
 (pdftex.def)             Requested size: 386.64748pt x 308.05324pt.
- [15 <./img/chapter4/KinematicDiagramML.png>] [16]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [17] [18]
+ [15] [16 <./img/chapter4/KinematicDiagramML.png>] [17] [18]) [19]
 \openout2 = `chapter5/chapter5.aux'.
 
  (chapter5/chapter5.tex
 Cap\'{\i }tulo 5.
-) [19
+) [20
 
 
 
@@ -689,17 +695,21 @@ Overfull \hbox (7.69865pt too wide) in paragraph at lines 9--10
  ne-ce-si-ta-mos dos parame-
  []
 
-[20
+[21
 
 
 
 ]
-<./img/chapter6/opentorque.png, id=85, 1507.6325pt x 714.67pt>
+<./img/chapter6/opentorque.png, id=88, 1507.6325pt x 714.67pt>
 File: ./img/chapter6/opentorque.png Graphic file (type png)
 <use ./img/chapter6/opentorque.png>
 Package pdftex.def Info: ./img/chapter6/opentorque.png  used on input line 35.
 (pdftex.def)             Requested size: 360.13686pt x 170.71733pt.
-) [21 <./img/chapter6/opentorque.png>] [22]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [22] [23 <./img/chapter6/opentorque.png>]
 \openout2 = `finalchapter/finalchapter.aux'.
 
  (finalchapter/finalchapter.tex
@@ -709,7 +719,7 @@ Underfull \hbox (badness 1248) in paragraph at lines 22--25
 ning de-na-
  []
 
-) [23
+) [24
 
 
 
@@ -719,10 +729,10 @@ LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 5.
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmtt.fd
 "
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [24
+) [25
 
-]) [25] (MATLAB/Anexo2.m) (MATLAB/Anexo3.m) [26] (MATLAB/Anexo4.m
-[27])) [28] (main.aux (chapter0/chapter0.aux)
+] [26]) (MATLAB/Anexo2.m) [27] (MATLAB/Anexo3.m) (MATLAB/Anexo4.m
+[28] [29])) [30] (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (chapter1/chapter1.aux)
@@ -730,10 +740,10 @@ LaTeX Info: Redefining \% on input line 7.
 (chapter5/chapter5.aux) (chapter6/chapter6.aux) (finalchapter/finalchapter.aux)
 ) ) 
 Here is how much of TeX's memory you used:
- 6260 strings out of 492946
- 89172 string characters out of 3124935
- 271598 words of memory out of 3000000
- 9957 multiletter control sequences out of 15000+200000
+ 6579 strings out of 492946
+ 94590 string characters out of 3124935
+ 281113 words of memory out of 3000000
+ 10272 multiletter control sequences out of 15000+200000
  11495 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,15n,58p,469b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -751,9 +761,9 @@ ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Trujillo/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:
 /Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs1
 0.pfb>
-Output written on main.pdf (29 pages, 765459 bytes).
+Output written on main.pdf (31 pages, 766777 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

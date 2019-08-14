@@ -17,7 +17,7 @@ De acuerdo con \cite[p.~14]{Dombre2007}, el diseño y control de robots requiere
 
 En este capítulo se desarrollarán estos modelos matemáticos, los cuales son necesarios para simular y predecir el comportamiento del mismo. 
 
-Para realizar estos modelos, es necesario contar con los parámetros físicos y geométricos del robot, los cuales, para una primera aproximación se mencionarán a continuación.
+Para realizar estos modelos, es necesario contar con los parámetros físicos y geométricos del robot, los cuales aún no están completamente definidos, por lo que, en una primera aproximación, se mencionan en la tabla 4.
 
 %Insertar tabla de dimensiones y parámetros
 
@@ -30,7 +30,7 @@ Con estos datos claros, es posible empezar la realización de los modelos matem�
 \section{Cinemática directa e inversa}
 \subsection{Cinemática directa}
 
-La cinemática directa de un robot se refiere al cálculo de la posición y orientación del marco de referencia del efector final desde sus coordenadas $\theta$. \cite{University2017}
+La cinemática directa de un robot se refiere al cálculo de la posición y orientación del marco de referencia del efector final a partir de las coordenadas $\theta$ de sus articulaciones. \cite{University2017}
 
 \subsubsection{Matriz de transformación homogénea}
 

@@ -12,6 +12,9 @@
 \usepackage{matlab-prettifier}
 \usepackage{ mathrsfs }
 
+\renewcommand{\baselinestretch}{1.2} 
+
+
 \begin{document}
 
 \include{chapter0/chapter0}
