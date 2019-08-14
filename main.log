@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  13 AUG 2019 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  14 AUG 2019 10:23
 entering extended mode
 **./main.tex
 (main.tex
@@ -446,15 +446,60 @@ fs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
-("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumit
-em.sty"
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip51
-\enit@outerparindent=\dimen128
-\enit@toks=\toks27
-\enit@inbox=\box57
-\enit@count@id=\count124
-\enitdp@description=\count125
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geomet
+ry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpd
+f.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvt
+ex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxet
+ex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count124
+\Gm@cntv=\count125
+\c@Gm@tempcnt=\count126
+\Gm@bindingoffset=\dimen128
+\Gm@wd@mp=\dimen129
+\Gm@odd@mp=\dimen130
+\Gm@even@mp=\dimen131
+\Gm@layoutwidth=\dimen132
+\Gm@layoutheight=\dimen133
+\Gm@layouthoffset=\dimen134
+\Gm@layoutvoffset=\dimen135
+\Gm@dimlist=\toks27
+
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geomet
+ry.cfg"))
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.
+sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty
+"
+Package: array 2018/11/13 v2.4j Tabular extension package (FMi)
+\col@sep=\dimen136
+\ar@mcellbox=\box57
+\extrarowheight=\dimen137
+\NC@list=\toks28
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box58
+)
+\TX@col@width=\dimen138
+\TX@old@table=\dimen139
+\TX@old@col=\dimen140
+\TX@target=\dimen141
+\TX@delta=\dimen142
+\TX@cols=\count127
+\TX@ftn=\toks29
 ) (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
@@ -487,17 +532,17 @@ LaTeX Font Info:    ... okay on input line 20.
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
-\scratchdimen=\dimen129
-\scratchbox=\box58
-\nofMPsegments=\count127
-\nofMParguments=\count128
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count129
-\MPscratchDim=\dimen130
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count128
+\scratchdimen=\dimen143
+\scratchbox=\box59
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen144
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks31
 )
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
 df-base.sty"
@@ -540,11 +585,6 @@ Package ifluatex Info: LuaTeX not detected.
 excmds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpd
-f.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -570,10 +610,45 @@ erthousand on input line 20.
 LaTeX Info: Redefining \ohm on input line 20.
 Package gensymb Info: Using \textohm for \ohm on input line 20.
 Package gensymb Info: Using \textmu for \micro on input line 20.
-\c@lstlisting=\count132
+\c@lstlisting=\count134
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(79.6678pt, 454.9594pt, 79.6678pt)
+* v-part:(T,H,B)=(79.6678pt, 635.63438pt, 79.6678pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=454.9594pt
+* \textheight=635.63438pt
+* \oddsidemargin=7.39781pt
+* \evensidemargin=7.39781pt
+* \topmargin=-29.60219pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 \openout2 = `chapter0/chapter0.aux'.
 
- (chapter0/chapter0.tex
+(chapter0/chapter0.tex
 <./img/chapter0/logouv2.jpg, id=1, 667.74469pt x 873.2625pt>
 File: ./img/chapter0/logouv2.jpg Graphic file (type jpg)
 <use ./img/chapter0/logouv2.jpg>
@@ -648,7 +723,7 @@ Cap\'{\i }tulo 3.
 File: ./img/chapter3/reqdiag.png Graphic file (type png)
 <use ./img/chapter3/reqdiag.png>
 Package pdftex.def Info: ./img/chapter3/reqdiag.png  used on input line 7.
-(pdftex.def)             Requested size: 390.0pt x 191.9027pt.
+(pdftex.def)             Requested size: 454.9594pt x 223.86589pt.
 ) [11
 
 
@@ -664,16 +739,21 @@ File: ./img/chapter4/robotarmprototype.png Graphic file (type png)
 Package pdftex.def Info: ./img/chapter4/robotarmprototype.png  used on input li
 ne 13.
 (pdftex.def)             Requested size: 82.55786pt x 194.27448pt.
+
+Overfull \hbox (55.54187pt too wide) in paragraph at lines 28--39
+ [][] 
+ []
+
 [13
 
 
 
 ] [14 <./img/chapter4/robotarmprototype.png>]
-<./img/chapter4/KinematicDiagramML.png, id=59, 644.4075pt x 513.41812pt>
+<./img/chapter4/KinematicDiagramML.png, id=58, 644.4075pt x 513.41812pt>
 File: ./img/chapter4/KinematicDiagramML.png Graphic file (type png)
 <use ./img/chapter4/KinematicDiagramML.png>
 Package pdftex.def Info: ./img/chapter4/KinematicDiagramML.png  used on input l
-ine 56.
+ine 73.
 (pdftex.def)             Requested size: 386.64748pt x 308.05324pt.
  [15] [16 <./img/chapter4/KinematicDiagramML.png>] [17] [18]) [19]
 \openout2 = `chapter5/chapter5.aux'.
@@ -689,12 +769,6 @@ Cap\'{\i }tulo 5.
 
  (chapter6/chapter6.tex
 Cap\'{\i }tulo 6.
-
-Overfull \hbox (7.69865pt too wide) in paragraph at lines 9--10
-[]\OT1/cmr/m/n/12 Para la co-rrec-ta se-lec-cion o desa-rro-llo del ac-tua-dor
- ne-ce-si-ta-mos dos parame-
- []
-
 [21
 
 
@@ -705,21 +779,11 @@ File: ./img/chapter6/opentorque.png Graphic file (type png)
 <use ./img/chapter6/opentorque.png>
 Package pdftex.def Info: ./img/chapter6/opentorque.png  used on input line 35.
 (pdftex.def)             Requested size: 360.13686pt x 170.71733pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [22] [23 <./img/chapter6/opentorque.png>]
+ [22 <./img/chapter6/opentorque.png>]) [23]
 \openout2 = `finalchapter/finalchapter.aux'.
 
  (finalchapter/finalchapter.tex
-(main.bbl
-Underfull \hbox (badness 1248) in paragraph at lines 22--25
-[]\OT1/cmr/m/n/12 P. Cor-ke, ``A sim-ple and sys-te-ma-tic ap-proach to as-sig-
-ning de-na-
- []
-
-) [24
+(main.bbl) [24
 
 
 
@@ -731,37 +795,41 @@ LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 5.
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [25
 
-] [26]) (MATLAB/Anexo2.m) [27] (MATLAB/Anexo3.m) (MATLAB/Anexo4.m
-[28] [29])) [30] (main.aux (chapter0/chapter0.aux)
+] [26]) (MATLAB/Anexo2.m) (MATLAB/Anexo3.m [27]) (MATLAB/Anexo4.m
+[28]) [29]) [30] (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (chapter1/chapter1.aux)
 (chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapter4/chapter4.aux)
 (chapter5/chapter5.aux) (chapter6/chapter6.aux) (finalchapter/finalchapter.aux)
-) ) 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6579 strings out of 492946
- 94590 string characters out of 3124935
- 281113 words of memory out of 3000000
- 10272 multiletter control sequences out of 15000+200000
+ 6851 strings out of 492946
+ 97990 string characters out of 3124935
+ 292529 words of memory out of 3000000
+ 10530 multiletter control sequences out of 15000+200000
  11495 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,15n,58p,469b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Trujillo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
-600\tctt1200.pk><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Trujillo/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Trujil
-lo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr17.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Trujillo/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:
-/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs1
-0.pfb>
-Output written on main.pdf (31 pages, 766777 bytes).
+ 41i,15n,58p,508b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Trujillo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
+00\tctt1200.pk><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Trujillo/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Trujill
+o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Trujillo/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Trujillo/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/
+Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10
+.pfb>
+Output written on main.pdf (31 pages, 766481 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -11,8 +11,10 @@
 \usepackage{multicol}
 \usepackage{matlab-prettifier}
 \usepackage{ mathrsfs }
-
-\renewcommand{\baselinestretch}{1.2} 
+\setlength{\parskip}{1.6mm}
+\usepackage[margin=2.8cm]{geometry}
+\usepackage{tabularx}
+\renewcommand{\baselinestretch}{1.4} 
 
 
 \begin{document}
