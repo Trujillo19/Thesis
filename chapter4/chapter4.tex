@@ -26,11 +26,11 @@ Para realizar estos modelos, es importante contar con los parámetros físicos y
 \caption{Parámetros del brazo robótico}
  \label{table:parametrosbrazorobotico}
 \begin{tabular}{l|l|l|l|l|l|l|}
-                       & Eslabón 1   & Eslabón 2   & Eslabón 3   & Eslabón 4   & Eslabón 5   & Eslabón 6    \\ 
+\textbf{Eslabones}                       &  1   &  2   &  3   &  4   &  5   &  6    \\ 
 \hline
-Longitud [m]           & 0.152       & 0.104       & 0.244       & 0.104       & 0.213       & 0.104        \\
-Masa [kg]              & 0           & 2           & 1           & 0.8         & 0.8         & 0.2          \\
-Centro de gravedad [m] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0]  \\
+Longitud           & 0.152       & 0.104       & 0.244       & 0.104       & 0.213       & 0.104        \\
+Masa               & 0           & 2           & 1           & 0.8         & 0.8         & 0.2          \\
+Centro de gravedad & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0]  \\
 Matriz de inercia      & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0] & {[}0, 0, 0]  \\
 Fricción en eslabón    & 0.00148     & 0.00817     & 0.00138     & 7.12e-05    & 8.26e-05    & 3.67e-05     \\
 Fricción de Coulomb    & 0.395       & 0.126       & 0.132       & 0.0113      & 0.00926     & 0.00396      \\
@@ -121,31 +121,28 @@ Como se comentó al principio del capítulo, es necesario establecer una relaci�
 
 Para el desarrollo del modelo dinámico se favoreció la formulación de Newton-Euler en lugar de la formulación Lagraniana, esto debido a su eficiencia computacional.
 
-Para encontrar los torques a los que deben estar sometidos las articulaciones del brazo robótico se utilizará la herramienta que se ha utilizado a lo largo de este capítulo, Robotic Toolbox de Peter Corke, se desarrolla un algoritmo en MATLAB donde se incluiyen los parámetros necesarios para el modelo dinámico tales como masa, centro de gravedad, momento de inercia, fricción viscosa, fricción de Coulomb, inercia del motor y relación de engranes. 
+Para encontrar los torques a los que deben estar sometidos las articulaciones del brazo robótico se utilizará la herramienta que se ha utilizado a lo largo de este capítulo, con ayuda de ésta, se desarrolla un algoritmo en MATLAB donde se incluiyen los parámetros necesarios para el modelo dinámico tales como masa, centro de gravedad, momento de inercia, fricción viscosa, fricción de Coulomb, inercia del motor y relación de engranes. 
 
 La lista de parámetros para cada articulación y eslabón fue descrita anteriormente en el cuadro \ref{table:parametrosbrazorobotico}.
 
-Cabe destacar que algunos de los parámetros dinámicos son una aproximación optimista, al no tener aún un diseño final ni todos los componentes seleccionados, sin embargo, es funcional para una primera iteración del torque necesario para empezar la selección de componentes.
+Cabe destacar que algunos de los parámetros dinámicos son una aproximación optimista, al no tener aún un diseño final ni todos los componentes seleccionados, sin embargo, es funcional para una primera iteración del torque necesario para continuar con la selección de componentes.
 
 Con los datos del cuadro \ref{table:parametrosbrazorobotico} se selecciona los torques máximos en el escenario más demandante, esto es en una trayectoria en la cuál cada una de las articulaciones se somete a una mayor fuerza.
 
 Con todos los datos correctamente particularizados, obtenemos una lista con todos los valores máximos, se puede apreciar en el cuadro \ref{table:maxtorque}. 
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
-\caption{Torque máximo por articulación}
+\caption{Parámetros del brazo robótico}
 \label{table:maxtorque}
-\begin{tabular}{l|l|l|l|l|}
-               & $\theta$ [rad] & d [m]    & a [m]   & $\alpha$ [rad]                        \\ 
+\begin{tabular}{l|l|l|l|l|l|l|}
+\textbf{Articulaciones}              &  1 & 2 & 3 &  4 &  5 &  6  \\ 
 \hline
-Articulación 1 & $\theta_1$              & 0.152    & 0       & $\frac{\pi}{2}$   \\
-Articulación 2 & $\theta_2$              & 0        & -0.244       & 0 \\
-Articulación 3 & $\theta_3$                  & 0 & -0.213       & 0                                                  \\
-Articulación 4 & $\theta_4$              & -0.012        & 0 & $-\frac{\pi}{2}$   \\
-Articulación 5 & $\theta_5$                        & 0.085        & 0 & $\frac{\pi}{2}$  \\
-Articulación 6 & $\theta_6$                           & 0        & 0  & $-\frac{\pi}{2}$                                                 
+Torque máximo & 0.2            & 25.35          & 11.94~         & 2.33           & 0.2            & 0.2            
 \end{tabular}
 \end{table}
+
+       
 
 
   

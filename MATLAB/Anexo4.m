@@ -25,15 +25,14 @@ B = [0.00148 0.000817 0.00138 7.12e-05 8.26e-05 3.67e-05];  %  Motor viscous fri
 Tc = [0.395 0.126 0.132 0.0112 0.00926 0.00396]; %link coulomb friction
 G = [1 1 1 1 1 1]; %Gear ratio
 payload = 2;
-qn = [0 0 0 0 0 0];
-qz = [0 -90 0 0 0 0];
+qn = [0 0 0 0 0 0].*pi/180;
+qz = [0 -90 0 0 -90 0].*pi/180;
 q = jtraj(qz,qn,10);
-q1 
 
 robotarm = myroboticarm(L1,L2,L3,L4,L5,L6,L7,m,r,I1,I2,I3,I4,I5,I6,Jm,B,Tc,G,payload);
 
-torque = robotarm.rne(qz, [0 1 0 0 0 0], [0 0 0 0 0 0])
-robotarm.teach
+torque = robotarm.rne(q, 0*q, 0*q)
+robotarm.plot(q,'delay',1)
 
 
 
