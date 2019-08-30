@@ -1,0 +1,72 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2017 SP5.0. Build: 3967
+                Computer name:   DESKTOP-OA16SME
+                User name:   Trujillo
+                Processors:   Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+                Memory:   8106 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.17763)
+                CAD version:   SOLIDWORKS 2017 SP5.0
+                CPU speed:   2401 MHz
+
+    General Info
+                Model:   flowtest.SLDASM
+                Project name:   AirFlow2
+                Project path:   C:\Users\Trujillo\Documents\Thesis\SOLIDWORKS\SK3 - 6374 - 149KV\2
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (not exclude internal spaces)
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global coordinate system
+                Reference axis:   Z
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.029 m
+                X max:   0.126 m
+                Y min:   0 m
+                Y max:   0.148 m
+                Z min:   0.021 m
+                Z max:   0.185 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   14
+                Number of cells in Y:   14
+                Number of cells in Z:   14
+
+        Number Of Cells
+                Cells:   6123
+                Fluid cells:   6123
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   1
+
+    Goals
+                
+                Name   	Unit   	Value   	Progress   	Criteria   	Delta   	Use in convergence 
+
+    General Info
+                Iterations:   57
+                CPU time:   25 s
+
+        Log
+                Mesh generation started	0:   12:12:14 , Aug 28
+                Mesh generation normally finished	0:   12:12:18 , Aug 28
+                Preparing data for calculation	0:   12:12:21 , Aug 28
+                Calculation started	0:   12:12:22 , Aug 28
+                Calculation has converged since the following criteria are satisfied:	56:   12:12:46 , Aug 28
+                    Goals are converged	56:   
+                Calculation finished	57:   12:12:47 , Aug 28

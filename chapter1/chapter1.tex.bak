@@ -1,10 +1,33 @@
 \chapter{Introducción}
 
-Aquí empieza el viaje	
+Los robots colaborativos, también denominados \textit{cobots}, son aquellos que permiten a los humanos ocupar la misma área de trabajo que éstos y ofrecer la interacción segura entre robot y humano con el fin de realizar una tarea común. 
+
+Los \textit{cobots} ofrecen mucho más flexibilidad en su operación con respecto a los robots industriales tradicionales, por lo que es posible su utilización en la manufactura de productos personalizados en masa. Las desventajas consisten en sacrificar la carga útil máxima así como la  eficiencia y exactitud de los robots industriales tradicionales. En resumen, los robots colaborativos se encuentran en el punto medio entre el trabajo manual y la automatización industrial. \cite{Zaatari2019}
+
+El interés en los robots colaborativos ha ido en aumento en la última década, es por esto que los grandes fabricantes de robots como ABB, KUKA o Universal Robots debido a la flexibilidad que ofrecen con respecto a los robots tradicionales.  \cite{Zaatari2019}
+
+
+
+Existe en la industria un mayor interés por automatizar procesos.
+Los robots colaborativos son caros
+
+En este 
+
+\begin{comment}
+La finalidad de esta debe ser suministrar suficientes ante-
+cedentes para que el lector pueda comprender y evaluar los resultados del
+
+estudio sin necesidad de consultar publicaciones anteriores sobre el tema.
+Debe presentar también el fundamento racional del estudio. Por encima de
+todo, hay que manifestar breve y claramente cuál es el propósito al escribir
+el artículo. Hay que elegir las referencias cuidadosamente para suministrar
+
+\end{comment}
+
 
 \section{Objetivos}
 
-El objetivo general de esta investigación consiste en diseñar y construir un brazo robótico de seis grados de libertad para sistemas de manufactura flexible.
+El objetivo general de esta investigación consiste en diseñar y construir un brazo robótico colaborativo de seis grados de libertad para sistemas de manufactura flexible.
 
 Los objetivos específicos se mencionan a continuación:
 

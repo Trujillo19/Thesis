@@ -33,7 +33,7 @@ Tesis:
 Capítulo 1.
 * Enviar al correo leobardomems@gmail.com
 * 2291895989
-* Fecha de envío: 
+* Fecha de envío: mañana. 
 
 Artículo:
 * No párrafos pequeños consecutivos.
@@ -44,12 +44,7 @@ No idea.
 
 
 
-Roadmap:
-*Dibujar el brazo robótico done
-*Realizar el análisis cinemático para fk & ik done
-*Realizar el análisis dinámico para calcular torque. aqui
-*Empezar con la parte eléctrica, selección de componentes, BOM, (ODrive, Brushless servo)
-*Realizar la simulación con URDF para ROS
+Shoulder screw!
 
 \end{comment}
 
