@@ -25,19 +25,35 @@ El objetivo general de esta investigación consiste en diseñar y construir un b
 
 \begin{itemize}
 \item Desarrollar el modelo matemático cinemático y dinámico de un brazo robótico de seis grados de libertad.
-\item Construir un brazo robótico de coste accesible y fácil fabricación, así como compartir su diseño y componentes con una licencia de código abierto. 
+\item Construir un brazo robótico de coste accesible y fácil replicación.
 \item Optimizar el modelado de piezas para su correcta manufactura con máquinas de manufactura aditiva.
-\item Desarrollar ¿utilizar? una metodología apegada a la ingeniería de sistemas basadas en modelos.
+\item Utilizar una metodología apegada a la ingeniería de sistemas basadas en modelos.
+\item Compartir su diseño, componentes y software con una licencia de código abierto. 
 \end{itemize}
 
 \section{Justificación}
 
-El desarrollo de un brazo robótico de seis grados de libertad para sistemas de manufactura flexible que se pretende realizar es relevante en diversos ámbitos del conocimiento. 
+El desarrollo de un brazo robótico colaborativo de seis grados de libertad para sistemas de manufactura flexible que se pretende realizar es relevante en diversos ámbitos del conocimiento, tales como la robótica, la inteligencia artifical y la metodología de ingeniería de sistemas basado en modelos.
 
-Por último, al estar pensado como un desarrollo de código abierto, contribuirá al acervo tecnológico de la humanidad y podrá ser copiado, modificado y mejorado alrededor del mundo. 
+Para lograr la descentralización deseada en la industria 4.0 es necesario que los medios de producción sean democráticos y estén al alcance de la mayor cantidad de personas posibles, es por esto que es necesario desarrollar tecnología de coste accesible y de código abierto.
+
+El elevado precio de los robots colaborativos actuales se basa en diferentes factores, entre los que se encuentran:
+
+\begin{itemize}
+\item Certificaciones de seguridad, resistencia contra los elementos o seguridad ambiental.
+\item Accesorios incluidos tales como la consola de control y aprendizaje o elementos de anclaje.
+\item Elementos protegidos por patentes o excesivamente costosos, como los \textit{harmonic drive}.
+\item Investigación y desarrollo.
+\end{itemize}
+
+Es posible eliminar la mayoría de estos costos al desarrollar únicamente una plataforma mecánica y de software robusta sobre la cual la comunidad pueda desarrollar, remplazando los elementos costosos por alternativas más baratas y eliminando los accesorios y las certificaciones.
+
+Otro punto importante a tener en cuenta, es que la naturaleza de este proyecto es servir como plataforma para el desarrollo de la investigación, pues con ayuda del brazo robótico se podrá desarrollar invesitigación en el área de inteligencia artifical, tales como aprendizaje reforzado o visión computacional.
+
+Por último, al estar pensado como un desarrollo de código abierto, contribuirá al acervo tecnológico de la humanidad y podrá ser replicado, modificado y mejorado alrededor del mundo. 
 
 
 \section{Hipótesis}
 
-Es posible realizar un brazo robótico colaborativo de coste accesible para implementarlo en sistemas de manufactura flexible. Así mismo, es posible realizar la mayoría de los componentes por medio de manufactura aditiva.
+Es posible realizar un brazo robótico colaborativo de coste accesible para implementarlo en sistemas de manufactura flexible. Así mismo, es posible realizar la mayoría de los componentes estructurales por medio de manufactura aditiva, en especial los reductores de velocidad necesarios para alcanzar los requisitos de carga útil máxima y velocidad de operación.
 
