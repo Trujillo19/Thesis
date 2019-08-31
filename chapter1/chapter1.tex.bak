@@ -1,32 +1,27 @@
 \chapter{Introducción}
 
-Los robots colaborativos, también denominados \textit{cobots}, son aquellos que permiten a los humanos ocupar la misma área de trabajo que éstos y ofrecer la interacción segura entre robot y humano con el fin de realizar una tarea común. 
+El propósito de esta investigación consiste en desarrollar un brazo robótico colaborativo de coste accesible para que las pequeñas y medianas empresas puedan aumentar la eficiencia y calidad en sus procesos así como librar a sus trabajadores de tareas repetitivas o potencialmente peligrosas. %This was five.
 
-Los \textit{cobots} ofrecen mucho más flexibilidad en su operación con respecto a los robots industriales tradicionales. Las desventajas consisten en sacrificar la carga útil máxima así como la  eficiencia y el alcance de los robots industriales tradicionales. En resumen, los robots colaborativos son un excelente compromiso entre el trabajo manual y la automatización industrial. \cite{Zaatari2019}
+Aún con el crecimiento en la demanda de los robots colaborativos, el precio de éstos no ha sufrido grandes cambios desde su lanzamiento, pues su precio promedio ronda en los \textbf{\$50,000 dólares}, lo cual es prohibitivo para las pequeñas y medianas empresas. % This was four.
 
-El interés en los robots colaborativos ha ido en aumento en la última década, es por esto que los grandes fabricantes de robots como ABB, KUKA o Universal Robots han desarrollado productos para este nicho de mercado. Por su parte, las grandes emprezas de manufactura como Audi, Volkswagen y Nissan han incorporado robots colaborativos en sus lineas de ensamblaje. \cite{Zaatari2019}
+Los robots colaborativos, también denominados \textit{cobots}, son aquellos que permiten a los humanos ocupar la misma área de trabajo que éstos y ofrecer la interacción segura entre robot y humano con el fin de realizar una tarea común.  % This was the first.
 
-Aún con el crecimiento en la demanda de los robots colaborativos, el precio de éstos no ha sufrido grandes cambios desde su lanzamiento, pues su precio promedio ronda en los \textbf{\$50,000 dólares}, lo cual es prohibitivo para las pequeñas y medianas empresas.
+Los \textit{cobots} ofrecen mucho más flexibilidad en su operación con respecto a los robots industriales tradicionales. Las desventajas consisten en sacrificar la carga útil máxima así como la  eficiencia y el alcance de los robots industriales tradicionales. En resumen, los robots colaborativos son un excelente compromiso entre el trabajo manual y la automatización industrial. \cite{Zaatari2019} % This was second.
 
-El propósito de esta investigación consiste en desarrollar un brazo robótico colaborativo de coste accesible para que las pequeñas y medianas empresas puedan aumentar la eficiencia y calidad en sus procesos así como librar a sus trabajadores de tareas repetitivas o potencialmente peligrosas.
+El interés en los robots colaborativos ha ido en aumento en la última década, es por esto que los grandes fabricantes de robots como ABB, KUKA o Universal Robots han desarrollado productos para este nicho de mercado. Por su parte, las grandes emprezas de manufactura como Audi, Volkswagen y Nissan han incorporado robots colaborativos en sus lineas de ensamblaje. \cite{Zaatari2019} % And third.
 
 \begin{comment}
-
 Párrafo uno: Introducción sobre los robots colaborativos
 Párrafo dos: Ventajas con respecto a robots tradicionales
 Párrafo tres: Pertinencia de la investigación en la actualidad
 Párrafo cuatro: Propósito de la investigación.
 Párrafo cinco: Propósito de la investigación e interés social.
-
-
 \end{comment}
 
 
 \section{Objetivos}
 
-El objetivo general de esta investigación consiste en diseñar y construir un brazo robótico colaborativo de seis grados de libertad para sistemas de manufactura flexible.
-
-Los objetivos específicos se mencionan a continuación:
+El objetivo general de esta investigación consiste en diseñar y construir un brazo robótico colaborativo de seis grados de libertad para sistemas de manufactura flexible. Los objetivos específicos se mencionan a continuación:
 
 \begin{itemize}
 \item Desarrollar el modelo matemático cinemático y dinámico de un brazo robótico de seis grados de libertad.
@@ -43,4 +38,6 @@ Por último, al estar pensado como un desarrollo de código abierto, contribuir�
 
 
 \section{Hipótesis}
+
+Es posible realizar un brazo robótico colaborativo de coste accesible para implementarlo en sistemas de manufactura flexible. Así mismo, es posible realizar la mayoría de los componentes por medio de manufactura aditiva.
 
