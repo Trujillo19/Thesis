@@ -3,34 +3,35 @@
 \contentsline {chapter}{Abstract}{7}% 
 \babel@toc {spanish}{}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{8}% 
-\contentsline {section}{\numberline {1.1}Objetivos}{9}% 
-\contentsline {section}{\numberline {1.2}Justificaci\IeC {\'o}n}{9}% 
-\contentsline {section}{\numberline {1.3}Hip\IeC {\'o}tesis}{10}% 
-\contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{11}% 
-\contentsline {section}{\numberline {2.1}Brazos rob\IeC {\'o}ticos}{11}% 
-\contentsline {section}{\numberline {2.2}Rob\IeC {\'o}tica colaborativa}{11}% 
-\contentsline {section}{\numberline {2.3}Sistemas de manufactura flexible}{11}% 
-\contentsline {section}{\numberline {2.4}Ingenier\IeC {\'\i }a de sistemas basado en modelos}{11}% 
-\contentsline {chapter}{\numberline {3}MBSE}{12}% 
-\contentsline {section}{\numberline {3.1}Diagrama de requerimientos}{12}% 
-\contentsline {chapter}{\numberline {4}Modelo matem\IeC {\'a}tico}{14}% 
-\contentsline {section}{\numberline {4.1}Cinem\IeC {\'a}tica directa e inversa}{16}% 
-\contentsline {subsection}{\numberline {4.1.1}Cinem\IeC {\'a}tica directa}{16}% 
-\contentsline {subsubsection}{\numberline {4.1.1.1}Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea}{16}% 
-\contentsline {subsubsection}{\numberline {4.1.1.2}Convenci\IeC {\'o}n de Denavit-Hartenberg}{18}% 
-\contentsline {subsection}{\numberline {4.1.2}Cinem\IeC {\'a}tica inversa}{18}% 
-\contentsline {section}{\numberline {4.2}Cinem\IeC {\'a}tica de la velocidad}{19}% 
-\contentsline {section}{\numberline {4.3}Modelo din\IeC {\'a}mico}{19}% 
-\contentsline {subsection}{\numberline {4.3.1}Formulaci\IeC {\'o}n Newton-Euler}{19}% 
-\contentsline {chapter}{\numberline {5}Componentes el\IeC {\'e}ctricos}{21}% 
-\contentsline {chapter}{\numberline {6}Componentes mec\IeC {\'a}nicos}{22}% 
-\contentsline {section}{\numberline {6.1}Actuador}{22}% 
-\contentsline {subsection}{\numberline {6.1.1}Engranes planetarios}{23}% 
-\contentsline {subsection}{\numberline {6.1.2}Engrane cicloidal}{24}% 
-\contentsline {subsection}{\numberline {6.1.3}Harmonic Drive}{24}% 
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{25}% 
-\contentsline {chapter}{Anexos}{26}% 
-\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{26}% 
-\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{28}% 
-\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{28}% 
-\contentsline {section}{Anexo 2. Din\IeC {\'a}mica}{29}% 
+\contentsline {section}{\numberline {1.1}Planteamiento del problema}{9}% 
+\contentsline {section}{\numberline {1.2}Objetivos}{9}% 
+\contentsline {section}{\numberline {1.3}Justificaci\IeC {\'o}n}{9}% 
+\contentsline {section}{\numberline {1.4}Hip\IeC {\'o}tesis}{10}% 
+\contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{12}% 
+\contentsline {section}{\numberline {2.1}Brazos rob\IeC {\'o}ticos}{12}% 
+\contentsline {section}{\numberline {2.2}Rob\IeC {\'o}tica colaborativa}{12}% 
+\contentsline {section}{\numberline {2.3}Sistemas de manufactura flexible}{12}% 
+\contentsline {section}{\numberline {2.4}Ingenier\IeC {\'\i }a de sistemas basado en modelos}{12}% 
+\contentsline {chapter}{\numberline {3}MBSE}{13}% 
+\contentsline {section}{\numberline {3.1}Diagrama de requerimientos}{13}% 
+\contentsline {chapter}{\numberline {4}Modelo matem\IeC {\'a}tico}{15}% 
+\contentsline {section}{\numberline {4.1}Cinem\IeC {\'a}tica directa e inversa}{17}% 
+\contentsline {subsection}{\numberline {4.1.1}Cinem\IeC {\'a}tica directa}{17}% 
+\contentsline {subsubsection}{\numberline {4.1.1.1}Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea}{17}% 
+\contentsline {subsubsection}{\numberline {4.1.1.2}Convenci\IeC {\'o}n de Denavit-Hartenberg}{19}% 
+\contentsline {subsection}{\numberline {4.1.2}Cinem\IeC {\'a}tica inversa}{19}% 
+\contentsline {section}{\numberline {4.2}Cinem\IeC {\'a}tica de la velocidad}{20}% 
+\contentsline {section}{\numberline {4.3}Modelo din\IeC {\'a}mico}{20}% 
+\contentsline {subsection}{\numberline {4.3.1}Formulaci\IeC {\'o}n Newton-Euler}{20}% 
+\contentsline {chapter}{\numberline {5}Componentes el\IeC {\'e}ctricos}{22}% 
+\contentsline {chapter}{\numberline {6}Componentes mec\IeC {\'a}nicos}{23}% 
+\contentsline {section}{\numberline {6.1}Actuador}{23}% 
+\contentsline {subsection}{\numberline {6.1.1}Engranes planetarios}{24}% 
+\contentsline {subsection}{\numberline {6.1.2}Engrane cicloidal}{25}% 
+\contentsline {subsection}{\numberline {6.1.3}Harmonic Drive}{25}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{26}% 
+\contentsline {chapter}{Anexos}{27}% 
+\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{27}% 
+\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{29}% 
+\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{29}% 
+\contentsline {section}{Anexo 2. Din\IeC {\'a}mica}{30}% 

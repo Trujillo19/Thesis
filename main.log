@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  30 AUG 2019 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.9)  19 SEP 2019 09:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -705,12 +705,12 @@ Cap\'{\i }tulo 1.
 
 
 
-] [9]) [10]
+] [9]) [10] [11]
 \openout2 = `chapter2/chapter2.aux'.
 
  (chapter2/chapter2.tex
 Cap\'{\i }tulo 2.
-) [11
+) [12
 
 
 
@@ -719,43 +719,43 @@ Cap\'{\i }tulo 2.
 
  (chapter3/chapter3.tex
 Cap\'{\i }tulo 3.
-<./img/chapter3/reqdiag.png, id=45, 1264.725pt x 622.325pt>
+<./img/chapter3/reqdiag.png, id=49, 1264.725pt x 622.325pt>
 File: ./img/chapter3/reqdiag.png Graphic file (type png)
 <use ./img/chapter3/reqdiag.png>
 Package pdftex.def Info: ./img/chapter3/reqdiag.png  used on input line 7.
 (pdftex.def)             Requested size: 454.9594pt x 223.86589pt.
-) [12
+) [13
 
 
 
-] [13 <./img/chapter3/reqdiag.png>]
+] [14 <./img/chapter3/reqdiag.png>]
 \openout2 = `chapter4/chapter4.aux'.
 
  (chapter4/chapter4.tex
 Cap\'{\i }tulo 4.
-<./img/chapter4/robotarmprototype.png, id=55, 117.94063pt x 277.53688pt>
+<./img/chapter4/robotarmprototype.png, id=58, 117.94063pt x 277.53688pt>
 File: ./img/chapter4/robotarmprototype.png Graphic file (type png)
 <use ./img/chapter4/robotarmprototype.png>
 Package pdftex.def Info: ./img/chapter4/robotarmprototype.png  used on input li
 ne 13.
 (pdftex.def)             Requested size: 82.55786pt x 194.27448pt.
-[14
+[15
 
 
 
-] [15 <./img/chapter4/robotarmprototype.png>]
-<./img/chapter4/KinematicDiagramML.png, id=63, 644.4075pt x 513.41812pt>
+] [16 <./img/chapter4/robotarmprototype.png>]
+<./img/chapter4/KinematicDiagramML.png, id=66, 644.4075pt x 513.41812pt>
 File: ./img/chapter4/KinematicDiagramML.png Graphic file (type png)
 <use ./img/chapter4/KinematicDiagramML.png>
 Package pdftex.def Info: ./img/chapter4/KinematicDiagramML.png  used on input l
 ine 73.
 (pdftex.def)             Requested size: 386.64748pt x 308.05324pt.
- [16] [17 <./img/chapter4/KinematicDiagramML.png>] [18]) [19] [20]
+ [17] [18 <./img/chapter4/KinematicDiagramML.png>] [19]) [20] [21]
 \openout2 = `chapter5/chapter5.aux'.
 
  (chapter5/chapter5.tex
 Cap\'{\i }tulo 5.
-) [21
+) [22
 
 
 
@@ -764,21 +764,21 @@ Cap\'{\i }tulo 5.
 
  (chapter6/chapter6.tex
 Cap\'{\i }tulo 6.
-[22
+[23
 
 
 
 ]
-<./img/chapter6/opentorque.png, id=92, 1507.6325pt x 714.67pt>
+<./img/chapter6/opentorque.png, id=95, 1507.6325pt x 714.67pt>
 File: ./img/chapter6/opentorque.png Graphic file (type png)
 <use ./img/chapter6/opentorque.png>
 Package pdftex.def Info: ./img/chapter6/opentorque.png  used on input line 35.
 (pdftex.def)             Requested size: 360.13686pt x 170.71733pt.
- [23 <./img/chapter6/opentorque.png>]) [24]
+ [24 <./img/chapter6/opentorque.png>]) [25]
 \openout2 = `finalchapter/finalchapter.aux'.
 
  (finalchapter/finalchapter.tex
-(main.bbl) [25
+(main.bbl) [26
 
 
 
@@ -788,10 +788,10 @@ LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 5.
 ("C:\Users\Trujillo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmtt.fd
 "
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [26
+) [27
 
-] [27]) (MATLAB/Anexo2.m) (MATLAB/Anexo3.m [28]) (MATLAB/Anexo4.m
-[29])) [30] (main.aux (chapter0/chapter0.aux)
+] [28]) (MATLAB/Anexo2.m) (MATLAB/Anexo3.m [29]) (MATLAB/Anexo4.m
+[30])) [31] (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (chapter1/chapter1.aux)
@@ -821,9 +821,9 @@ Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Us
 ers/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb><C:/Users/Trujillo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/rsfs/rsfs10.pfb>
-Output written on main.pdf (31 pages, 770300 bytes).
+Output written on main.pdf (32 pages, 771016 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
