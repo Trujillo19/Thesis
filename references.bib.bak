@@ -77,4 +77,46 @@
   publisher = {Elsevier {BV}},
 }
 
+@Book{summary2019,
+  title     = {Executive Summary World Robotics 2019 Industrial Robots},
+  publisher = {International Federation of Robobotics},
+  year      = {2019},
+  author    = {International Federation of Robobotics},
+}
+
+@Book{Schilling2001,
+  title     = {Fundamentals of Robotics : Analysis and Control},
+  publisher = {Prentice Hall of India},
+  year      = {2001},
+  author    = {Robert J Schilling},
+  isbn      = {8120310470},
+  url       = {https://www.amazon.com/Fundamentals-Robotics-Analysis-Robert-Schilling/dp/8120310470?SubscriptionId=AKIAIOBINVZYXZQZ2U3A&tag=chimbori05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=8120310470},
+}
+
+@Book{E.Appleton2011,
+  title     = {Industrial Robot Applications},
+  publisher = {Springer Netherlands},
+  year      = {2011},
+  author    = {E. Appleton, D. J. Williams},
+  isbn      = {9401079056},
+  date      = {2011-11-09},
+  ean       = {9789401079051},
+  pagetotal = {244},
+  url       = {https://www.ebook.de/de/product/21351254/e_appleton_d_j_williams_industrial_robot_applications.html},
+}
+
+@Article{cobot2018,
+  author  = {International Federation of Robots},
+  title   = {Demistifying collaborative robots},
+  journal = {IFR},
+  year    = {2018},
+}
+
+@Article{cobotreview,
+  author  = {Michael A. Peshkin},
+  title   = {Cobot Architecture},
+  journal = {IEEE TRANSACTIONS ON ROBOTICS AND AUTOMATION},
+  year    = {2001},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

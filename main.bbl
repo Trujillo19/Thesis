@@ -1,14 +1,30 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Zaatari2019}
 S.~E. Zaatari, M.~Marei, W.~Li, and Z.~Usman, ``Cobot programming for
   collaborative industrial tasks: An overview,'' {\em Robotics and Autonomous
   Systems}, vol.~116, pp.~162--180, jun 2019.
 
+\bibitem{summary2019}
+I.~F. of~Robobotics, {\em Executive Summary World Robotics 2019 Industrial
+  Robots}.
+\newblock International Federation of Robobotics, 2019.
+
 \bibitem{Spong2005}
 M.~W. Spong, S.~Hutchinson, and M.~Vidyasagar, {\em Robot Modeling and
   Control}.
 \newblock WILEY, 2005.
+
+\bibitem{Schilling2001}
+R.~J. Schilling, {\em Fundamentals of Robotics : Analysis and Control}.
+\newblock Prentice Hall of India, 2001.
+
+\bibitem{cobot2018}
+I.~F. of~Robots, ``Demistifying collaborative robots,'' {\em IFR}, 2018.
+
+\bibitem{cobotreview}
+M.~A. Peshkin, ``Cobot architecture,'' {\em IEEE TRANSACTIONS ON ROBOTICS AND
+  AUTOMATION}, 2001.
 
 \bibitem{Dombre2007}
 W.~K. Etienne~Dombre, {\em Robot Manipulators: Modeling, Performance Analysis
