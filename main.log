@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.25)  23 OCT 2019 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.25)  11 DEC 2019 14:04
 entering extended mode
 **./main.tex
 (main.tex
@@ -486,29 +486,28 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (chapter1/chapter1.aux)
-(chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapter4/chapter4.aux)
-(chapter5/chapter5.aux) (chapter6/chapter6.aux) (finalchapter/finalchapter.aux)
+(chapter2/chapter2.aux) (chapter3/chapter3.aux) (finalchapter/finalchapter.aux)
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
  ("C:\Users\Angel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    ... okay on input line 19.
 
 ("C:\Users\Angel\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
@@ -578,19 +577,19 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 \symgns@font=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 20.
-Package gensymb Info: Math companion symbols declared on input line 20.
-LaTeX Info: Redefining \degree on input line 20.
-LaTeX Info: Redefining \celsius on input line 20.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 19.
+Package gensymb Info: Math companion symbols declared on input line 19.
+LaTeX Info: Redefining \degree on input line 19.
+LaTeX Info: Redefining \celsius on input line 19.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 20.
-LaTeX Info: Redefining \ohm on input line 20.
-Package gensymb Info: Using \textohm for \ohm on input line 20.
-Package gensymb Info: Using \textmu for \micro on input line 20.
+erthousand on input line 19.
+LaTeX Info: Redefining \ohm on input line 19.
+Package gensymb Info: Using \textohm for \ohm on input line 19.
+Package gensymb Info: Using \textmu for \micro on input line 19.
 \c@lstlisting=\count134
 
 *geometry* driver: auto-detecting
@@ -674,7 +673,13 @@ LaTeX Info: Redefining \% on input line 1.
 
 ] [6
 
-]) [7
+]
+Overfull \hbox (10.85773pt too wide) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/12 You al-ways can find the la-test ver-sion of this fi-le in: h
+ttp://github.com/Trujillo19/Thesis. 
+ []
+
+) [7
 
 ]
 \openout2 = `chapter1/chapter1.aux'.
@@ -699,93 +704,81 @@ Cap\'{\i }tulo 2.
 
  (chapter3/chapter3.tex
 Cap\'{\i }tulo 3.
-<./img/chapter3/reqdiag.png, id=52, 1264.725pt x 622.325pt>
-File: ./img/chapter3/reqdiag.png Graphic file (type png)
-<use ./img/chapter3/reqdiag.png>
-Package pdftex.def Info: ./img/chapter3/reqdiag.png  used on input line 7.
-(pdftex.def)             Requested size: 454.9594pt x 223.86589pt.
-) [14
-
-
-
-] [15 <./img/chapter3/reqdiag.png>]
-\openout2 = `chapter4/chapter4.aux'.
-
- (chapter4/chapter4.tex
-Cap\'{\i }tulo 4.
-<./img/chapter4/robotarmprototype.png, id=61, 117.94063pt x 277.53688pt>
+<./img/chapter4/robotarmprototype.png, id=52, 117.94063pt x 277.53688pt>
 File: ./img/chapter4/robotarmprototype.png Graphic file (type png)
 <use ./img/chapter4/robotarmprototype.png>
 Package pdftex.def Info: ./img/chapter4/robotarmprototype.png  used on input li
-ne 13.
+ne 17.
 (pdftex.def)             Requested size: 82.55786pt x 194.27448pt.
-[16
+[14
 
 
 
-] [17 <./img/chapter4/robotarmprototype.png>]
-<./img/chapter4/KinematicDiagramML.png, id=69, 644.4075pt x 513.41812pt>
+] [15 <./img/chapter4/robotarmprototype.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
+
+("C:\Users\Angel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+<./img/chapter3/forwardkinematic.png, id=61, 393.47pt x 321.2pt>
+File: ./img/chapter3/forwardkinematic.png Graphic file (type png)
+<use ./img/chapter3/forwardkinematic.png>
+Package pdftex.def Info: ./img/chapter3/forwardkinematic.png  used on input lin
+e 76.
+(pdftex.def)             Requested size: 236.0838pt x 192.72148pt.
+
+[16]
+<./img/chapter4/KinematicDiagramML.png, id=68, 644.4075pt x 513.41812pt>
 File: ./img/chapter4/KinematicDiagramML.png Graphic file (type png)
 <use ./img/chapter4/KinematicDiagramML.png>
 Package pdftex.def Info: ./img/chapter4/KinematicDiagramML.png  used on input l
-ine 73.
+ine 107.
 (pdftex.def)             Requested size: 386.64748pt x 308.05324pt.
- [18] [19 <./img/chapter4/KinematicDiagramML.png>] [20]) [21] [22]
-\openout2 = `chapter5/chapter5.aux'.
-
- (chapter5/chapter5.tex
-Cap\'{\i }tulo 5.
-) [23
-
-
-
-]
-\openout2 = `chapter6/chapter6.aux'.
-
- (chapter6/chapter6.tex
-Cap\'{\i }tulo 6.
-[24
-
-
-
-]
-<./img/chapter6/opentorque.png, id=99, 1507.6325pt x 714.67pt>
+ [17 <./img/chapter3/forwardkinematic.png>] [18 <./img/chapter4/KinematicDiagra
+mML.png>] [19] [20] [21] [22]
+<./img/chapter6/opentorque.png, id=92, 1507.6325pt x 714.67pt>
 File: ./img/chapter6/opentorque.png Graphic file (type png)
 <use ./img/chapter6/opentorque.png>
-Package pdftex.def Info: ./img/chapter6/opentorque.png  used on input line 35.
+Package pdftex.def Info: ./img/chapter6/opentorque.png  used on input line 238.
+
 (pdftex.def)             Requested size: 360.13686pt x 170.71733pt.
- [25 <./img/chapter6/opentorque.png>]) [26]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [23] [24 <./img/chapter6/opentorque.png>]
 \openout2 = `finalchapter/finalchapter.aux'.
 
  (finalchapter/finalchapter.tex
-(main.bbl) [27
+(main.bbl [25
 
 
 
-] (MATLAB/myroboticarm.m
+]) [26] (MATLAB/myroboticarm.m
 LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 5.
 
 ("C:\Users\Angel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmtt.fd"
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-[28
+[27
 
-] [29]) (MATLAB/Anexo2.m) (MATLAB/Anexo3.m [30]) (MATLAB/Anexo4.m [31]))
-[32] (main.aux (chapter0/chapter0.aux)
+] [28]) (MATLAB/Anexo2.m) (MATLAB/Anexo3.m [29]) (MATLAB/Anexo4.m [30]))
+[31] (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (chapter1/chapter1.aux)
-(chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapter4/chapter4.aux)
-(chapter5/chapter5.aux) (chapter6/chapter6.aux) (finalchapter/finalchapter.aux)
+(chapter2/chapter2.aux) (chapter3/chapter3.aux) (finalchapter/finalchapter.aux)
 ) ) 
 Here is how much of TeX's memory you used:
- 6886 strings out of 492895
- 98163 string characters out of 3123735
- 295672 words of memory out of 3000000
- 10583 multiletter control sequences out of 15000+200000
+ 6882 strings out of 492895
+ 97794 string characters out of 3123735
+ 294803 words of memory out of 3000000
+ 10603 multiletter control sequences out of 15000+200000
  11836 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,15n,58p,496b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,15n,58p,554b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 \tctt1200.pk> <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
 /ec/dpi600\tcbx1200.pk><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/
@@ -800,9 +793,9 @@ public/amsfonts/cm/cmsy10.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Angel/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Angel/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (33 pages, 778130 bytes).
+Output written on main.pdf (32 pages, 789725 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

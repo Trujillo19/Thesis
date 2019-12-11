@@ -119,4 +119,11 @@
   year    = {2001},
 }
 
+@Article{ReviewRoboticArm,
+  author  = {Rahual Gautam and Ankush Gedam and Ashish Zade and Ajay Mahawadiwar},
+  title   = {Review on Development of Industrial Robotic Arm},
+  journal = {International Research Journal of Engineering and Technologogy},
+  year    = {2017},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

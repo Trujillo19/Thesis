@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{University2017}
+K.~M.~N. University, I.~Lynch, and F.~C. S. N.~U. Park, {\em Modern Robotics}.
+\newblock Cambridge University Press, 2017.
+
 \bibitem{Zaatari2019}
 S.~E. Zaatari, M.~Marei, W.~Li, and Z.~Usman, ``Cobot programming for
   collaborative industrial tasks: An overview,'' {\em Robotics and Autonomous
@@ -10,14 +14,19 @@ I.~F. of~Robobotics, {\em Executive Summary World Robotics 2019 Industrial
   Robots}.
 \newblock International Federation of Robobotics, 2019.
 
-\bibitem{Spong2005}
-M.~W. Spong, S.~Hutchinson, and M.~Vidyasagar, {\em Robot Modeling and
-  Control}.
-\newblock WILEY, 2005.
+\bibitem{ReviewRoboticArm}
+R.~Gautam, A.~Gedam, A.~Zade, and A.~Mahawadiwar, ``Review on development of
+  industrial robotic arm,'' {\em International Research Journal of Engineering
+  and Technologogy}, 2017.
 
 \bibitem{Schilling2001}
 R.~J. Schilling, {\em Fundamentals of Robotics : Analysis and Control}.
 \newblock Prentice Hall of India, 2001.
+
+\bibitem{Spong2005}
+M.~W. Spong, S.~Hutchinson, and M.~Vidyasagar, {\em Robot Modeling and
+  Control}.
+\newblock WILEY, 2005.
 
 \bibitem{cobot2018}
 I.~F. of~Robots, ``Demistifying collaborative robots,'' {\em IFR}, 2018.
@@ -31,10 +40,6 @@ W.~K. Etienne~Dombre, {\em Robot Manipulators: Modeling, Performance Analysis
   and Control (Control Systems, Robotics, and Manufacturing series)}.
 \newblock Wiley-ISTE, 2007.
 
-\bibitem{University2017}
-K.~M.~N. University, I.~Lynch, and F.~C. S. N.~U. Park, {\em Modern Robotics}.
-\newblock Cambridge University Press, 2017.
-
 \bibitem{Corke2017}
 P.~Corke, {\em Robotics, Vision and Control}.
 \newblock Springer International Publishing, 2017.
@@ -43,5 +48,9 @@ P.~Corke, {\em Robotics, Vision and Control}.
 P.~Corke, ``A simple and systematic approach to assigning
   denavit{\textendash}hartenberg parameters,'' {\em {IEEE} Transactions on
   Robotics}, vol.~23, pp.~590--594, jun 2007.
+
+\bibitem{Craig2013}
+J.~J. Craig, {\em Introduction to Robotics: Pearson New International Edition}.
+\newblock Pearson HigherEducation, 2013.
 
 \end{thebibliography}
