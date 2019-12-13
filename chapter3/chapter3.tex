@@ -14,7 +14,7 @@ De acuerdo con \cite{Dombre2007}, el diseño y control de robots requiere divers
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.7]{./img/chapter4/robotarmprototype.png}
+    \includegraphics[scale=0.7]{./img/chapter3/robotarmprototype.png}
     \caption{Boceto del brazo robótico propuesto}
     \label{fig:roboticarmprototype}
 \end{figure}
@@ -82,6 +82,24 @@ Las ecuaciones \ref{eq:cinematicadirecta1}, \ref{eq:cinematicadirecta2} y \ref{e
 
 Una matriz de transformación homogenea no es nada más que la representación matricial de un movimiento rígido \cite{Spong2005}, así, la posición y orientación del efector final puede ser fácilmente calculada utilizando multiplicación de matrices.
 
+La forma más general de una matriz de transformación homogenea puede ser escrita de la siguiente manera:
+
+\begin{equation}
+T^0_1 =
+\begin{bmatrix}
+n_x & s_x & a_x & d_x\\
+n_y & s_y & a_y & d_y\\
+n_z & s_z & a_z & d_z\\
+0 & 0 & 0 & 1
+\end{bmatrix} = 
+\begin{bmatrix}
+n & s & a & d\\
+0 & 0 & 0 & 1
+\end{bmatrix}
+\end{equation}
+
+En dónde $n$ es un vector representando la dirección $x_1$ en el sistema $o_0 x_0 y_0 z_0$, de manera similar, $s$ representa la dirección de $y_1$ y $a$ representa la direción de $z_1$. Por su parte, $d$ es un vector representando la posición desde el origen $o_0$ hasta el origen $o_1$ en el marco de referencia $o_0 x_0 y_0 z_0$.
+
 
 Según \cite{University2017}, existen tres usos principales para una matriz de transformación homogénea:
 
@@ -104,7 +122,7 @@ Dónde $a_1, b_1, c_1, d_1, d_2, e_1$ y $f_1$ son las longitudes de los eslabone
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.6]{./img/chapter4/KinematicDiagramML.png}
+    \includegraphics[scale=0.6]{./img/chapter3/KinematicDiagramML.png}
     \caption{Cadena cinemática}
     \label{fig:kinematicchain}
 \end{figure}
@@ -151,6 +169,8 @@ Para resolver el problema de encontrar la cinemática inversa existen dos métod
 
 El concenso de la mayoría de los autores, tales como \cite{Spong2005} y \cite{Craig2013} es que se prefiere encontrar la solución de forma cerrada por dos razones principales, la velocidad de solución y la forma en la que se encuentra una solución, es decir, como la cinemática inversa puede tener muchas soluciones se pueden desarrollar reglas para favorecer un tipo de solución con respecto de otra.
 
+Exiten algunos artículos como \cite{Chen2017} en el cuál se ejemplifica la manera de resolver la cinemática inversa de un robot manipulador de seis grados de libertad de forma analítica.
+
 Queda claro que resolver la cinemática inversa no es tarea sencilla, por esta razón y de manera parecida a como se manejó en la sección anterior, se utilizará la librería Robotic Toolbox, la cual incluye un método establecido para calcular la cinemática inversa dada una matriz de transformación homogénea. El algoritmo desarrollado puede consultarse en el Anexo 3.
 
 Así mismo, es importante notar que esta solución se utilizará únicamente en la etapa de desarrollo del brazo robótico y se tendrá que implementar un algoritmo de solución de cinemática inversa en el control final del robot.
@@ -196,16 +216,27 @@ Torque máximo & 0.2            & 25.35          & 11.94~         & 2.33        
 
 El algoritmo realizado está disponible para consulta en el Anexo 4. Así como el repositorio de esta tésis.
        
-\section{Componentes electrónicos}
+\section{Componentes eléctricos y electrónicos}
+
+Conforme al análisis realizado en el capítulo anterior es posible empezar la selección de componentes, se empezará por la selección de motores.
+
+Se optó por utilizar motores de corriente continua sin escobillas (BLDC), 
+
+% Dónde pongo sobre BLDC vs Stepper
+
+
+
 
 Aquí necesito seis motores, tres ODrive, seis encoders
 Una fuente de poder 
 
 \section{Componentes mecánicos}
 
+% Dónde pongo los diferentes tipos de actuadores
+
 Una vez determinado los componentes electrónicos necesarios para el correcto funcionamiento del brazo robótico es necesario determinar los componentes mecánicos.
 
-\section{Actuador}
+\subsection{Actuadores}
 
 Una de las partes mecánicas más importantes es el actuador, es decir, el mecanismo que proporcionará la fuerza necesaria para mover las articulaciones del robot.
 
@@ -216,6 +247,7 @@ Por norma general, los motores eléctricos y, para nuestro caso, los motores el�
 El siguiente paso es escoger un reductor de velocidad que cumpla con los requerimientos específicos de nuestro brazo robótico, los cuales son:
 
 \begin{itemize}
+\itemsep0em
 \item Alta relación de transmisión, mayor a 10:1.
 \item Precisión, necesaria para realizar los movimientos deseados sin demasiado juego. 
 \item Efectividad de transmisión, necesaria para no perder demasiada energía
@@ -225,7 +257,7 @@ Estos son algunos de los más importantes, existen otros factores a considerar c
 
 Para el desarrollo de este brazo robótico se han considerado tres diferentes tipos de reductores de velocidad, cada uno con ventajas y desventajas que se mencionarán a continuación.
 
-\subsection{Engranes planetarios}
+\subsubsection{Engranes planetarios}
 
 El primero en esta lista es un reductor con engranes planetarios, 
 
@@ -244,7 +276,7 @@ En esta propuesta la ventaja es la relativa facilidad de fabricación con tecnol
 
 Las desventajas son su relativamente pequeño relación de transmisión y su poca eficiencia de transmisión.
 
-\subsection{Engrane cicloidal}
-\subsection{Harmonic Drive}
+\subsubsection{Engrane cicloidal}
+\subsubsection{Harmonic Drive}
 
   

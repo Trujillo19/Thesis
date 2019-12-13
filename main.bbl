@@ -35,6 +35,39 @@ I.~F. of~Robots, ``Demistifying collaborative robots,'' {\em IFR}, 2018.
 M.~A. Peshkin, ``Cobot architecture,'' {\em IEEE TRANSACTIONS ON ROBOTICS AND
   AUTOMATION}, 2001.
 
+\bibitem{Khatib1986}
+O.~Khatib, ``Real-time obstacle avoidance for manipulators and mobile robots,''
+  in {\em Autonomous Robot Vehicles}, pp.~396--404, Springer New York, 1986.
+
+\bibitem{Teke2018}
+B.~Teke, M.~Lanz, J.-K. Kamarainen, and A.~Hietanen, ``Real-time and robust
+  collaborative robot motion control with microsoft kinect {\textregistered}
+  v2,'' in {\em 2018 14th {IEEE}/{ASME} International Conference on Mechatronic
+  and Embedded Systems and Applications ({MESA})}, {IEEE}, jul 2018.
+
+\bibitem{Lu2005}
+S.~Lu, J.~Chung, and S.~Velinsky, ``Human-robot collision detection and
+  identification based on wrist and base force/torque sensors,'' in {\em
+  Proceedings of the 2005 {IEEE} International Conference on Robotics and
+  Automation}, {IEEE}, 2005.
+
+\bibitem{Phan2018}
+T.-P. Phan, P.~C.-P. Chao, J.-J. Cai, Y.-J. Wang, S.-C. Wang, and K.~Wong, ``A
+  novel 6-{DOF} force/torque sensor for {COBOTs} and its calibration method,''
+  in {\em 2018 {IEEE} International Conference on Applied System Invention
+  ({ICASI})}, {IEEE}, apr 2018.
+
+\bibitem{Matsumotoa}
+T.~Matsumoto and K.~Kosuge, ``Collision detection of manipulator based on
+  adaptive control law,'' in {\em 2001 {IEEE}/{ASME} International Conference
+  on Advanced Intelligent Mechatronics. Proceedings (Cat. No.01TH8556)},
+  {IEEE}, 2001.
+
+\bibitem{Chen2018}
+S.~Chen, M.~Luo, and F.~He, ``A universal algorithm for sensorless collision
+  detection of robot actuator faults,'' {\em Advances in Mechanical
+  Engineering}, vol.~10, p.~168781401774071, jan 2018.
+
 \bibitem{Dombre2007}
 W.~K. Etienne~Dombre, {\em Robot Manipulators: Modeling, Performance Analysis
   and Control (Control Systems, Robotics, and Manufacturing series)}.
@@ -52,5 +85,11 @@ P.~Corke, ``A simple and systematic approach to assigning
 \bibitem{Craig2013}
 J.~J. Craig, {\em Introduction to Robotics: Pearson New International Edition}.
 \newblock Pearson HigherEducation, 2013.
+
+\bibitem{Chen2017}
+S.~Chen, M.~Luo, O.~Abdelaziz, and G.~Jiang, ``A general analytical algorithm
+  for collaborative robot (cobot) with 6 degree of freedom ({DOF}),'' in {\em
+  2017 International Conference on Applied System Innovation ({ICASI})},
+  {IEEE}, may 2017.
 
 \end{thebibliography}

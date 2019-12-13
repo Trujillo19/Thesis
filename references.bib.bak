@@ -126,4 +126,100 @@
   year    = {2017},
 }
 
+@Book{Craig2013,
+  title     = {Introduction to Robotics: Pearson New International Edition},
+  publisher = {Pearson HigherEducation},
+  year      = {2013},
+  author    = {Craig, John J.},
+  date      = {2013-10-03},
+  ean       = {9781292052526},
+  pagetotal = {384},
+  url       = {https://www.ebook.de/de/product/23460286/john_j_craig_introduction_to_robotics_pearson_new_international_edition.html},
+}
+
+@InProceedings{Akellaa,
+  author    = {P. Akella and M. Peshkin and E. Colgate and W. Wannasuphoprasit and N. Nagesh and J. Wells and S. Holland and T. Pearson and B. Peacock},
+  title     = {Cobots for the automobile assembly line},
+  booktitle = {Proceedings 1999 {IEEE} International Conference on Robotics and Automation (Cat. No.99CH36288C)},
+  publisher = {{IEEE}},
+  doi       = {10.1109/robot.1999.770061},
+}
+
+@Article{Cherubini2019,
+  author    = {Andrea Cherubini and Robin Passama and Benjamin Navarro and Mohamed Sorour and Abdellah Khelloufi and Osama Mazhar and Sonny Tarbouriech and Jihong Zhu and Olivier Tempier and Andr{\'{e}} Crosnier and Philippe Fraisse and Sofiane Ramdani},
+  title     = {A collaborative robot for the factory of the future: {BAZAR}},
+  journal   = {The International Journal of Advanced Manufacturing Technology},
+  year      = {2019},
+  month     = {may},
+  doi       = {10.1007/s00170-019-03806-y},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@InProceedings{Chen2017,
+  author    = {Saixuan Chen and Minzhou Luo and Omar Abdelaziz and Guanwu Jiang},
+  title     = {A general analytical algorithm for collaborative robot (cobot) with 6 degree of freedom ({DOF})},
+  booktitle = {2017 International Conference on Applied System Innovation ({ICASI})},
+  year      = {2017},
+  month     = {may},
+  publisher = {{IEEE}},
+  doi       = {10.1109/icasi.2017.7988522},
+}
+
+@Article{Chen2018,
+  author    = {Saixuan Chen and Minzhou Luo and Feng He},
+  title     = {A universal algorithm for sensorless collision detection of robot actuator faults},
+  journal   = {Advances in Mechanical Engineering},
+  year      = {2018},
+  volume    = {10},
+  number    = {1},
+  pages     = {168781401774071},
+  month     = {jan},
+  doi       = {10.1177/1687814017740710},
+  publisher = {{SAGE} Publications},
+}
+
+@InProceedings{Lu2005,
+  author    = {Shujun Lu and J.H. Chung and S.A. Velinsky},
+  title     = {Human-Robot Collision Detection and Identification Based on Wrist and Base Force/Torque Sensors},
+  booktitle = {Proceedings of the 2005 {IEEE} International Conference on Robotics and Automation},
+  year      = {2005},
+  publisher = {{IEEE}},
+  doi       = {10.1109/robot.2005.1570699},
+}
+
+@InProceedings{Matsumotoa,
+  author    = {T. Matsumoto and K. Kosuge},
+  title     = {Collision detection of manipulator based on adaptive control law},
+  booktitle = {2001 {IEEE}/{ASME} International Conference on Advanced Intelligent Mechatronics. Proceedings (Cat. No.01TH8556)},
+  year      = {2001},
+  publisher = {{IEEE}},
+  doi       = {10.1109/aim.2001.936450},
+}
+
+@Book{Robotiq,
+  title     = {COBOTS EBOOK},
+  publisher = {Robotiq},
+  author    = {Robotiq},
+}
+
+@InCollection{Khatib1986,
+  author    = {Oussama Khatib},
+  title     = {Real-Time Obstacle Avoidance for Manipulators and Mobile Robots},
+  booktitle = {Autonomous Robot Vehicles},
+  publisher = {Springer New York},
+  year      = {1986},
+  pages     = {396--404},
+  doi       = {10.1007/978-1-4613-8997-2_29},
+}
+
+@InProceedings{Phan2018,
+  author    = {Tan-Phat Phan and Paul C.-P. Chao and Jia-Jun Cai and Yu-Jen Wang and Sheng-Ching Wang and Kyle Wong},
+  title     = {A novel 6-{DOF} force/torque sensor for {COBOTs} and its calibration method},
+  booktitle = {2018 {IEEE} International Conference on Applied System Invention ({ICASI})},
+  year      = {2018},
+  month     = {apr},
+  publisher = {{IEEE}},
+  doi       = {10.1109/icasi.2018.8394511},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
