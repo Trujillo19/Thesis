@@ -1,38 +1,57 @@
-\contentsline {chapter}{Agradecimientos}{5}% 
-\contentsline {chapter}{Resumen}{6}% 
-\contentsline {chapter}{Abstract}{7}% 
+\contentsline {chapter}{Agradecimientos}{6}% 
+\contentsline {chapter}{Resumen}{7}% 
+\contentsline {chapter}{Abstract}{8}% 
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{8}% 
-\contentsline {section}{\numberline {1.1}Planteamiento del problema}{9}% 
-\contentsline {section}{\numberline {1.2}Objetivos}{9}% 
-\contentsline {section}{\numberline {1.3}Justificaci\IeC {\'o}n}{10}% 
-\contentsline {section}{\numberline {1.4}Hip\IeC {\'o}tesis}{11}% 
-\contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{12}% 
-\contentsline {section}{\numberline {2.1}Brazos rob\IeC {\'o}ticos industriales}{12}% 
-\contentsline {subsection}{\numberline {2.1.1}Clasificaci\IeC {\'o}n de los robots}{12}% 
-\contentsline {section}{\numberline {2.2}Rob\IeC {\'o}tica colaborativa}{13}% 
-\contentsline {paragraph}{Escenarios de colaboraci\IeC {\'o}n.}{13}% 
-\contentsline {section}{\numberline {2.3}Sistemas de manufactura flexible}{16}% 
-\contentsline {section}{\numberline {2.4}Ingenier\IeC {\'\i }a de sistemas basado en modelos}{16}% 
-\contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a}{17}% 
-\contentsline {section}{\numberline {3.1}Modelos matem\IeC {\'a}ticos}{17}% 
-\contentsline {subsection}{\numberline {3.1.1}Cinem\IeC {\'a}tica directa e inversa.}{19}% 
-\contentsline {subsubsection}{\numberline {3.1.1.1}Cinem\IeC {\'a}tica directa}{19}% 
-\contentsline {paragraph}{Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea.}{19}% 
-\contentsline {paragraph}{Convenci\IeC {\'o}n de Denavit-Hartenberg.}{21}% 
-\contentsline {subsubsection}{\numberline {3.1.1.2}Cinem\IeC {\'a}tica inversa}{22}% 
-\contentsline {subsection}{\numberline {3.1.2}Cinem\IeC {\'a}tica de la velocidad}{23}% 
-\contentsline {subsection}{\numberline {3.1.3}Modelo din\IeC {\'a}mico}{23}% 
-\contentsline {subsubsection}{\numberline {3.1.3.1}Formulaci\IeC {\'o}n Newton-Euler}{24}% 
-\contentsline {section}{\numberline {3.2}Componentes electr\IeC {\'o}nicos}{25}% 
-\contentsline {section}{\numberline {3.3}Componentes mec\IeC {\'a}nicos}{25}% 
-\contentsline {subsection}{\numberline {3.3.1}Actuadores}{25}% 
-\contentsline {subsubsection}{\numberline {3.3.1.1}Engranes planetarios}{26}% 
-\contentsline {subsubsection}{\numberline {3.3.1.2}Engrane cicloidal}{26}% 
-\contentsline {subsubsection}{\numberline {3.3.1.3}Harmonic Drive}{26}% 
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{29}% 
-\contentsline {chapter}{Anexos}{30}% 
-\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{30}% 
-\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{32}% 
-\contentsline {section}{Anexo 3. Cinem\IeC {\'a}tica inversa}{32}% 
-\contentsline {section}{Anexo 4. Din\IeC {\'a}mica}{33}% 
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{9}% 
+\contentsline {section}{\numberline {1.1}Planteamiento del problema}{10}% 
+\contentsline {section}{\numberline {1.2}Objetivos}{10}% 
+\contentsline {section}{\numberline {1.3}Justificaci\IeC {\'o}n}{11}% 
+\contentsline {section}{\numberline {1.4}Hip\IeC {\'o}tesis}{12}% 
+\contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{13}% 
+\contentsline {section}{\numberline {2.1}Brazos rob\IeC {\'o}ticos industriales}{13}% 
+\contentsline {subsection}{\numberline {2.1.1}Clasificaci\IeC {\'o}n de los brazos rob\IeC {\'o}ticos}{13}% 
+\contentsline {subsubsection}{\numberline {2.1.1.1}Clasificaci\IeC {\'o}n por su sistema coordenado}{14}% 
+\contentsline {paragraph}{Cartesianos.}{14}% 
+\contentsline {paragraph}{Cil\IeC {\'\i }ndricos.}{14}% 
+\contentsline {paragraph}{Esf\IeC {\'e}ricos.}{15}% 
+\contentsline {paragraph}{Articulado.}{15}% 
+\contentsline {paragraph}{SCARA.}{15}% 
+\contentsline {subsubsection}{\numberline {2.1.1.2}Clasificaci\IeC {\'o}n por su fuente de energ\IeC {\'\i }a}{17}% 
+\contentsline {paragraph}{Energ\IeC {\'\i }a hidr\IeC {\'a}ulica.}{17}% 
+\contentsline {paragraph}{Energ\IeC {\'\i }a neum\IeC {\'a}tica.}{17}% 
+\contentsline {paragraph}{Energ\IeC {\'\i }a el\IeC {\'e}ctica.}{18}% 
+\contentsline {subsubsection}{\numberline {2.1.1.3}Clasificaci\IeC {\'o}n por su m\IeC {\'e}todo de control}{18}% 
+\contentsline {subsubsection}{\numberline {2.1.1.4}Clasificaci\IeC {\'o}n por su m\IeC {\'e}todo de programaci\IeC {\'o}n}{18}% 
+\contentsline {subsection}{\numberline {2.1.2}Anatom\IeC {\'\i }a de un brazo rob\IeC {\'o}tico articulado}{18}% 
+\contentsline {paragraph}{Hombro.}{18}% 
+\contentsline {subsubsection}{\numberline {2.1.2.1}Codo}{19}% 
+\contentsline {subsubsection}{\numberline {2.1.2.2}Mu\IeC {\~n}eca}{19}% 
+\contentsline {subsubsection}{\numberline {2.1.2.3}Mano}{19}% 
+\contentsline {subsection}{\numberline {2.1.3}Terminolog\IeC {\'\i }a de un brazo rob\IeC {\'o}tico}{19}% 
+\contentsline {subsection}{\numberline {2.1.4}Efector final}{19}% 
+\contentsline {section}{\numberline {2.2}Rob\IeC {\'o}tica colaborativa}{19}% 
+\contentsline {paragraph}{Escenarios de colaboraci\IeC {\'o}n.}{20}% 
+\contentsline {subsection}{\numberline {2.2.1}Seguridad}{22}% 
+\contentsline {section}{\numberline {2.3}Dise\IeC {\~n}o de un brazo rob\IeC {\'o}tico}{22}% 
+\contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a}{23}% 
+\contentsline {section}{\numberline {3.1}Modelos matem\IeC {\'a}ticos}{23}% 
+\contentsline {subsection}{\numberline {3.1.1}Cinem\IeC {\'a}tica directa e inversa.}{25}% 
+\contentsline {subsubsection}{\numberline {3.1.1.1}Cinem\IeC {\'a}tica directa}{25}% 
+\contentsline {paragraph}{Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea.}{25}% 
+\contentsline {paragraph}{Convenci\IeC {\'o}n de Denavit-Hartenberg.}{27}% 
+\contentsline {subsubsection}{\numberline {3.1.1.2}Cinem\IeC {\'a}tica inversa}{28}% 
+\contentsline {subsection}{\numberline {3.1.2}Cinem\IeC {\'a}tica de la velocidad}{29}% 
+\contentsline {subsection}{\numberline {3.1.3}Modelo din\IeC {\'a}mico}{29}% 
+\contentsline {subsubsection}{\numberline {3.1.3.1}Formulaci\IeC {\'o}n Newton-Euler}{30}% 
+\contentsline {section}{\numberline {3.2}Componentes el\IeC {\'e}ctricos y electr\IeC {\'o}nicos}{31}% 
+\contentsline {section}{\numberline {3.3}Componentes mec\IeC {\'a}nicos}{32}% 
+\contentsline {subsection}{\numberline {3.3.1}Actuadores}{32}% 
+\contentsline {subsubsection}{\numberline {3.3.1.1}Engranes planetarios}{33}% 
+\contentsline {subsubsection}{\numberline {3.3.1.2}Engrane cicloidal}{34}% 
+\contentsline {subsubsection}{\numberline {3.3.1.3}Harmonic Drive}{34}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{37}% 
+\contentsline {chapter}{Anexos}{38}% 
+\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{38}% 
+\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{40}% 
+\contentsline {section}{Anexo 3. Cinem\IeC {\'a}tica inversa}{40}% 
+\contentsline {section}{Anexo 4. Din\IeC {\'a}mica}{41}% 

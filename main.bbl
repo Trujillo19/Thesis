@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Gupta2016}
+A.~K. Gupta, S.~K. Arora, and J.~R. Westcott, {\em Industrial Automation and
+  Robotics: An Introduction}.
+\newblock MERCURY LEARNING \& INFORMATION, 2016.
+
 \bibitem{University2017}
 K.~M.~N. University, I.~Lynch, and F.~C. S. N.~U. Park, {\em Modern Robotics}.
 \newblock Cambridge University Press, 2017.
@@ -23,10 +28,13 @@ R.~Gautam, A.~Gedam, A.~Zade, and A.~Mahawadiwar, ``Review on development of
 R.~J. Schilling, {\em Fundamentals of Robotics : Analysis and Control}.
 \newblock Prentice Hall of India, 2001.
 
-\bibitem{Spong2005}
-M.~W. Spong, S.~Hutchinson, and M.~Vidyasagar, {\em Robot Modeling and
-  Control}.
-\newblock WILEY, 2005.
+\bibitem{Moran2007}
+M.~E. Moran, ``Evolution of robotic arms,'' {\em Journal of Robotic Surgery},
+  vol.~1, pp.~103--111, may 2007.
+
+\bibitem{Craig2013}
+J.~J. Craig, {\em Introduction to Robotics: Pearson New International Edition}.
+\newblock Pearson HigherEducation, 2013.
 
 \bibitem{cobot2018}
 I.~F. of~Robots, ``Demistifying collaborative robots,'' {\em IFR}, 2018.
@@ -73,6 +81,11 @@ W.~K. Etienne~Dombre, {\em Robot Manipulators: Modeling, Performance Analysis
   and Control (Control Systems, Robotics, and Manufacturing series)}.
 \newblock Wiley-ISTE, 2007.
 
+\bibitem{Spong2005}
+M.~W. Spong, S.~Hutchinson, and M.~Vidyasagar, {\em Robot Modeling and
+  Control}.
+\newblock WILEY, 2005.
+
 \bibitem{Corke2017}
 P.~Corke, {\em Robotics, Vision and Control}.
 \newblock Springer International Publishing, 2017.
@@ -82,14 +95,15 @@ P.~Corke, ``A simple and systematic approach to assigning
   denavit{\textendash}hartenberg parameters,'' {\em {IEEE} Transactions on
   Robotics}, vol.~23, pp.~590--594, jun 2007.
 
-\bibitem{Craig2013}
-J.~J. Craig, {\em Introduction to Robotics: Pearson New International Edition}.
-\newblock Pearson HigherEducation, 2013.
-
 \bibitem{Chen2017}
 S.~Chen, M.~Luo, O.~Abdelaziz, and G.~Jiang, ``A general analytical algorithm
   for collaborative robot (cobot) with 6 degree of freedom ({DOF}),'' in {\em
   2017 International Conference on Applied System Innovation ({ICASI})},
   {IEEE}, may 2017.
+
+\bibitem{odrivedoc}
+O.~Weigl., ``Odrive motor guide,'' {\em
+  https://docs.google.com/spreadsheets/d/12vzz7XVEK6YNIOqH0jAz51F5VUpc-lJEs3mmkWP1H4Y/edit},
+  2016.
 
 \end{thebibliography}

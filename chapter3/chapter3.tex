@@ -56,7 +56,7 @@ Como ya se mencionó anteriormente, la cinemática directa de un brazo robótico
 Un ejemplo de esto lo podemos encontrar en la figura \ref{fig:forwardkinematic2}, donde se analiza la cinemática directa de un brazo robótico de tres grados de libertad. En este ejemplo podemos apreciar que la longitud de los eslabones se representan como $L_1, L_2, L_3$ respectivamente y se ha escogido un marco de referencia fijo denominado \{0\}, mientras que el marco de referencia del efector final es \{4\}. \cite{University2017}
 
 Entonces, para conocer la posición final es necesaria la siguente ecuación:
-\begin{equation}\\
+\begin{equation}
 \label{eq:cinematicadirecta1}
 x = L_1 \cos(\theta_1)+L_2 \cos(\theta_1 + \theta_2)+ L_3 \cos(\theta_1 + \theta_2 + \theta_3)
 \end{equation}
@@ -210,7 +210,7 @@ Con todos los datos correctamente particularizados, obtenemos una lista con todo
 \begin{tabular}{l|l|l|l|l|l|l|}
 \textbf{Articulaciones}              &  1 & 2 & 3 &  4 &  5 &  6  \\ 
 \hline
-Torque máximo & 0.2            & 25.35          & 11.94~         & 2.33           & 0.2            & 0.2            
+Torque máximo (N) & 0.2            & 25.35          & 11.94~         & 2.33           & 0.2            & 0.2            
 \end{tabular}
 \end{table}
 
@@ -220,9 +220,20 @@ El algoritmo realizado está disponible para consulta en el Anexo 4. Así como e
 
 Conforme al análisis realizado en el capítulo anterior es posible empezar la selección de componentes, se empezará por la selección de motores.
 
-Se optó por utilizar motores de corriente continua sin escobillas (BLDC), 
+Conforme a lo expuesto en el capítulo \ref{chap:Marcoteorico}, se optó por utilizar motores de corriente continua sin escobillas, conocidos también por sus siglas en inglés BLDC.
 
-% Dónde pongo sobre BLDC vs Stepper
+De acuerdo con los datos proporcionados por la tabla \ref{table:maxtorque}, la articulación con un torque más demandante es la articulación dos, conocida como el hombro del robot, esta necesita un torque total de 25 N para levantar una carga útil de 2 Kg. Siendo esta la parte más desafiante del brazo robótico, se empezará por el desarrollo de ésta.
+
+Es prácticamente imposible encontrar un motor con ese torque, por lo que será necesario utilizar un sistema de engranes reductores, por ahora, se seleccionará un motor con un torque de salida de entre 1.5 y 2 N para incremenentar el torque de salida a través de engranajes.
+
+Se seleccionó un motor de la marca Turnigy, en particular el modelo Aerodrive SK3 - 6374-149KV, pues según datos experimentales realizados en \cite{odrivedoc} tiene un torque máximo de 3.77 N. Es posible apreciar una imagen de este motor en la figura \ref{fig:sk36374}.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.6]{./img/chapter3/sk36374.jpg}
+    \caption{Motor a utilizar en la articulación dos.}
+    \label{fig:sk36374}
+\end{figure}
 
 
 

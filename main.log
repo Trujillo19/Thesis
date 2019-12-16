@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.25)  12 DEC 2019 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.25)  16 DEC 2019 11:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -647,18 +647,18 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 6.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-])
+] [2])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2] (main.lof
+ [3] (main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [3
+ [4
 
 ] (main.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -667,11 +667,11 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [4
-
-] [5
+ [5
 
 ] [6
+
+] [7
 
 ]
 Overfull \hbox (10.85773pt too wide) in paragraph at lines 62--63
@@ -679,55 +679,91 @@ Overfull \hbox (10.85773pt too wide) in paragraph at lines 62--63
 ttp://github.com/Trujillo19/Thesis. 
  []
 
-) [7
+) [8
 
 ]
 \openout2 = `chapter1/chapter1.aux'.
 
  (chapter1/chapter1.tex
 Cap\'{\i }tulo 1.
-[8
+[9
 
 
 
-] [9] [10]) [11]
+] [10] [11]) [12]
 \openout2 = `chapter2/chapter2.aux'.
 
  (chapter2/chapter2.tex
 Cap\'{\i }tulo 2.
-[12
+[13
 
 
 
-] [13]
-<./img/chapter2/escenarioscolaborativos.png, id=52, 414.54875pt x 221.82875pt>
+]
+<./img/chapter2/cartesiano.png, id=52, 284.06125pt x 153.07187pt>
+File: ./img/chapter2/cartesiano.png Graphic file (type png)
+<use ./img/chapter2/cartesiano.png>
+Package pdftex.def Info: ./img/chapter2/cartesiano.png  used on input line 34.
+(pdftex.def)             Requested size: 227.24928pt x 122.45766pt.
+<./img/chapter2/cilindrico.png, id=54, 280.04625pt x 162.10562pt>
+File: ./img/chapter2/cilindrico.png Graphic file (type png)
+<use ./img/chapter2/cilindrico.png>
+Package pdftex.def Info: ./img/chapter2/cilindrico.png  used on input line 48.
+(pdftex.def)             Requested size: 224.0373pt x 129.68466pt.
+ [14 <./img/chapter2/cartesiano.png>]
+<./img/chapter2/esferico.png, id=59, 324.71312pt x 184.18813pt>
+File: ./img/chapter2/esferico.png Graphic file (type png)
+<use ./img/chapter2/esferico.png>
+Package pdftex.def Info: ./img/chapter2/esferico.png  used on input line 63.
+(pdftex.def)             Requested size: 259.77084pt x 147.35068pt.
+<./img/chapter2/articulado.png, id=60, 302.12875pt x 199.74625pt>
+File: ./img/chapter2/articulado.png Graphic file (type png)
+<use ./img/chapter2/articulado.png>
+Package pdftex.def Info: ./img/chapter2/articulado.png  used on input line 72.
+(pdftex.def)             Requested size: 241.70332pt x 159.79721pt.
+<./img/chapter2/scara.png, id=61, 304.63812pt x 142.5325pt>
+File: ./img/chapter2/scara.png Graphic file (type png)
+<use ./img/chapter2/scara.png>
+Package pdftex.def Info: ./img/chapter2/scara.png  used on input line 81.
+(pdftex.def)             Requested size: 243.71082pt x 114.02614pt.
+ [15 <./img/chapter2/cilindrico.png> <./img/chapter2/esferico.png>] [16 <./img/
+chapter2/articulado.png> <./img/chapter2/scara.png>] [17]
+<./img/chapter2/anatomiabrazo.png, id=75, 459.7175pt x 300.62312pt>
+File: ./img/chapter2/anatomiabrazo.png Graphic file (type png)
+<use ./img/chapter2/anatomiabrazo.png>
+Package pdftex.def Info: ./img/chapter2/anatomiabrazo.png  used on input line 1
+39.
+(pdftex.def)             Requested size: 367.77449pt x 240.49881pt.
+ [18] [19 <./img/chapter2/anatomiabrazo.png>]
+<./img/chapter2/escenarioscolaborativos.png, id=84, 414.54875pt x 221.82875pt>
 File: ./img/chapter2/escenarioscolaborativos.png Graphic file (type png)
 <use ./img/chapter2/escenarioscolaborativos.png>
 Package pdftex.def Info: ./img/chapter2/escenarioscolaborativos.png  used on in
-put line 42.
+put line 180.
 (pdftex.def)             Requested size: 331.63943pt x 177.46321pt.
- [14 <./img/chapter2/escenarioscolaborativos.png>]
-<./img/chapter2/ur5.png, id=58, 351.3125pt x 351.3125pt>
+ [20] [21 <./img/chapter2/escenarioscolaborativos.png>]
+<./img/chapter2/ur5.png, id=92, 351.3125pt x 351.3125pt>
 File: ./img/chapter2/ur5.png Graphic file (type png)
 <use ./img/chapter2/ur5.png>
-Package pdftex.def Info: ./img/chapter2/ur5.png  used on input line 66.
+Package pdftex.def Info: ./img/chapter2/ur5.png  used on input line 207.
 (pdftex.def)             Requested size: 175.6558pt x 175.6558pt.
-) [15 <./img/chapter2/ur5.png>] [16]
+) [22 <./img/chapter2/ur5.png>]
 \openout2 = `chapter3/chapter3.aux'.
 
- (chapter3/chapter3.tex
+
+(chapter3/chapter3.tex
 Cap\'{\i }tulo 3.
-<./img/chapter3/robotarmprototype.png, id=66, 117.94063pt x 277.53688pt>
+<./img/chapter3/robotarmprototype.png, id=97, 117.94063pt x 277.53688pt>
 File: ./img/chapter3/robotarmprototype.png Graphic file (type png)
 <use ./img/chapter3/robotarmprototype.png>
 Package pdftex.def Info: ./img/chapter3/robotarmprototype.png  used on input li
 ne 17.
 (pdftex.def)             Requested size: 82.55786pt x 194.27448pt.
-[17
+[23
 
 
 
-] [18 <./img/chapter3/robotarmprototype.png>]
+] [24 <./img/chapter3/robotarmprototype.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
 
 ("C:\Users\Angel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
@@ -735,82 +771,100 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
-<./img/chapter3/forwardkinematic.png, id=75, 393.47pt x 321.2pt>
+<./img/chapter3/forwardkinematic.png, id=106, 393.47pt x 321.2pt>
 File: ./img/chapter3/forwardkinematic.png Graphic file (type png)
 <use ./img/chapter3/forwardkinematic.png>
 Package pdftex.def Info: ./img/chapter3/forwardkinematic.png  used on input lin
 e 76.
 (pdftex.def)             Requested size: 236.0838pt x 192.72148pt.
 
-[19] [20 <./img/chapter3/forwardkinematic.png>]
-<./img/chapter3/KinematicDiagramML.png, id=88, 644.4075pt x 513.41812pt>
+[25] [26 <./img/chapter3/forwardkinematic.png>]
+<./img/chapter3/KinematicDiagramML.png, id=119, 644.4075pt x 513.41812pt>
 File: ./img/chapter3/KinematicDiagramML.png Graphic file (type png)
 <use ./img/chapter3/KinematicDiagramML.png>
 Package pdftex.def Info: ./img/chapter3/KinematicDiagramML.png  used on input l
 ine 125.
 (pdftex.def)             Requested size: 386.64748pt x 308.05324pt.
- [21 <./img/chapter3/KinematicDiagramML.png>] [22] [23] [24] [25]
-<./img/chapter6/opentorque.png, id=107, 1507.6325pt x 714.67pt>
+ [27 <./img/chapter3/KinematicDiagramML.png>] [28] [29] [30]
+
+LaTeX Warning: Reference `fig:sk36374' on page 31 undefined on input line 229.
+
+<./img/chapter3/sk36374.jpg, id=135, 426.09187pt x 312.41719pt>
+File: ./img/chapter3/sk36374.jpg Graphic file (type jpg)
+<use ./img/chapter3/sk36374.jpg>
+Package pdftex.def Info: ./img/chapter3/sk36374.jpg  used on input line 233.
+(pdftex.def)             Requested size: 255.65709pt x 187.45175pt.
+[31] [32 <./img/chapter3/sk36374.jpg>]
+<./img/chapter6/opentorque.png, id=142, 1507.6325pt x 714.67pt>
 File: ./img/chapter6/opentorque.png Graphic file (type png)
 <use ./img/chapter6/opentorque.png>
-Package pdftex.def Info: ./img/chapter6/opentorque.png  used on input line 261.
+Package pdftex.def Info: ./img/chapter6/opentorque.png  used on input line 281.
 
 (pdftex.def)             Requested size: 360.13686pt x 170.71733pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [26] [27 <./img/chapter6/opentorque.png>]
+ [33 <./img/chapter6/opentorque.png>])
+[34]
 \openout2 = `finalchapter/finalchapter.aux'.
 
- (finalchapter/finalchapter.tex
-(main.bbl [28
+ (finalchapter/finalchapter.tex (main.bbl [35
 
 
 
-]) [29] (MATLAB/myroboticarm.m
+] [36]
+Overfull \hbox (142.40482pt too wide) in paragraph at lines 105--108
+[]\OT1/cmr/m/n/12 O. Weigl., ``Odri-ve mo-tor gui-de,'' \OT1/cmr/m/it/12 https:
+//docs.google.com/spreadsheets/d/12vzz7XVEK6YNIOqH0jAz51F5VUpc-
+ []
+
+) [37] (MATLAB/myroboticarm.m
 LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 5.
 
 ("C:\Users\Angel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmtt.fd"
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-[30
+[38
 
-] [31]) (MATLAB/Anexo2.m) (MATLAB/Anexo3.m [32]) (MATLAB/Anexo4.m [33]))
-[34] (main.aux (chapter0/chapter0.aux)
+] [39]) (MATLAB/Anexo2.m) (MATLAB/Anexo3.m [40]) (MATLAB/Anexo4.m [41]))
+[42] (main.aux (chapter0/chapter0.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (chapter1/chapter1.aux)
 (chapter2/chapter2.aux) (chapter3/chapter3.aux) (finalchapter/finalchapter.aux)
-) ) 
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6904 strings out of 492895
- 98280 string characters out of 3123735
- 294860 words of memory out of 3000000
- 10623 multiletter control sequences out of 15000+200000
+ 6950 strings out of 492895
+ 99474 string characters out of 3123735
+ 294950 words of memory out of 3000000
+ 10662 multiletter control sequences out of 15000+200000
  11836 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,15n,58p,563b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\tctt1200.pk> <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\tcrm1200.pk> <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/Angel/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Angel/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Angel/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
-rs/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr17.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Angel/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Angel/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ang
-el/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-<C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs1
-0.pfb>
-Output written on main.pdf (35 pages, 982661 bytes).
+ <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+tctt1200.pk> <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\tcrm1200.pk> <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Angel/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Angel/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
+s/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Angel/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Angel/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ange
+l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><
+C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10
+.pfb>
+Output written on main.pdf (43 pages, 1415048 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 228 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,10 +1,17 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Escenarios colaborativos}}{14}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Robot colaborativo UR5 de Universal Robots}}{15}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Robot cartesinao}}{14}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Robot cil\IeC {\'\i }ndrico}}{15}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Robot esf\IeC {\'e}rico}}{15}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Robot articulado}}{16}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Robot SCARA}}{16}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Anatom\IeC {\'\i }a de un brazo rob\IeC {\'o}tico \cite {Gupta2016}.}}{19}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Escenarios colaborativos}}{21}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Robot colaborativo UR5 de Universal Robots}}{22}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Boceto del brazo rob\IeC {\'o}tico propuesto}}{18}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cinem\IeC {\'a}tica directa de un brazo rob\IeC {\'o}tico de 3 grados de libertad \cite {University2017}}}{20}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Cadena cinem\IeC {\'a}tica}}{21}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces OpenTorque Actuator por Gabrael Levine}}{27}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Boceto del brazo rob\IeC {\'o}tico propuesto}}{24}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cinem\IeC {\'a}tica directa de un brazo rob\IeC {\'o}tico de 3 grados de libertad \cite {University2017}}}{26}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cadena cinem\IeC {\'a}tica}}{27}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Motor a utilizar en la articulaci\IeC {\'o}n dos.}}{32}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces OpenTorque Actuator por Gabrael Levine}}{33}% 

@@ -1,23 +1,161 @@
-\chapter{Marco teórico}
+\chapter{Marco teórico}\label{chap:Marcoteorico}
+
 
 \section{Brazos robóticos industriales}
 
 Antes de entrar en el tema principal de este documento, es importante conocer el antecedente o lo que se trata de mejorar, en nuestro caso, es imposible hablar de robots colaborativos sin primero abordar los brazos robóticos industriales.
 
-Un brazo robótico es un manipulador, usualmente programable con funciones similares a las de un brazo humano. Los eslabones de este manipulador estan conectados por articulaciones que permiten el movimiento rotacional o translacional. \cite{ReviewRoboticArm} \cite{Schilling2001}
+Un brazo robótico es un manipulador, usualmente programable con funciones similares a las de un brazo humano. Los eslabones de este manipulador estan conectados por articulaciones que permiten el movimiento rotacional o translacional \cite{ReviewRoboticArm} \cite{Schilling2001}.
 
-De acuerdo con \cite{Spong2005}, la mayoría de las aplicaciones en el campo de la robótica se centran en brazos robóticos industriales que operan en fabricas con entornos estructurados, es por esto su gran importancia.
-
-La Federación Internacional de Robótica ha reportado un crecimiento promedio anual a partir del 2013 del 19\% en la demanda de brazos robóticos, siendo la industria automotríz la dominante, seguida por la industria eléctrica y electrónica. \cite{summary2019}
+Diversos autores concuerdan que el primer brazo robótico industrial se instaló en una cadena de montaje de la empresa automotriz General Motors, fue presentado en 1961 y llevó por nombre Unimate, para despúes conocerse como a PUMA. Otros notorios desarrollos notorios se dieron en 1963 con el diseño del brazo robótico Rancho, en 1969 cuando Victor Scheinman desarrolló el brazo Stanford y en 1974 se desarrolló el brazo robótico Silver del MIT \cite{Moran2007}.
 
 
-\subsection{Clasificación de los robots}
+\subsection{Clasificación de los brazos robóticos}
 
-La clasificación de los brazos robóticos tiene dos grandes ramas, una de estas es por la fuente de su energía y la otra por la geometría de trabajo. 
+De acuedo con \cite{Gupta2016}, los brazos robóticos pueden clasificarse por cuatro elementos fundamentales de operación.
 
-La fuente de energía puede ser eléctrica o hidráulaca, la mayoría de los manipuladores hoy en día usan servomotores o motores a pasos de corriente continua \cite{Schilling2001}.
+\begin{itemize}
+\itemsep0em
+\item Por su sistema coordenado
+\item Por su fuente de energía
+\item Por su método de control
+\item Por su método de programación
+\end{itemize}
 
-Dependiendo de la geometría de trabajo, los brazos robóticos  se dividen en: cartesianos, cilíndricos, esféricos, SCARA o articulados.
+\subsubsection{Clasificación por su sistema coordenado}
+
+
+\paragraph{Cartesianos.} Un manipulador cartesiano tiene la configuración más sencilla. La imagen \ref{fig:robotcartesiano} muestra un ejemplo, donde podemos observar tres articulaciones \textit{prismáticas} mutuamente ortogonáles \cite{Craig2013}. Algunos autores llaman a esta configuración de robots x-y-z, por los ejes de movimiento.
+
+Debido a su simple forma, esta configuración posee la ventaja de una gran robustez, lo que facilita poder construir máquinas de gran tamaño y con una carga útil elevada.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{./img/chapter2/cartesiano.png}
+    \caption{Robot cartesinao}
+    \label{fig:robotcartesiano}
+\end{figure}
+
+Ejemplos de esta configuración los podemos observar en máquinas CNC como cortadoras láser, impresoras 3D o en máquinas \textit{pick and place}. 
+
+
+\paragraph{Cilíndricos.} Los manipuladores cilíndricos se forman con una articulación de tipo \textit{revoluta} en conjunto con dos articulaciones prísmáticas, una de ellas para moverse en el eje vertical y otra con un movimiento ortogonal a la articulación del tipo revoluta.
+
+Un ejemplo de esta configuración se puede apreciar en la figura \ref{fig:robotcilindrico}.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{./img/chapter2/cilindrico.png}
+    \caption{Robot cilíndrico}
+    \label{fig:robotcilindrico}
+\end{figure}
+
+Las aplicaciones de este tipo de robots son en atender maquinaria, operaciones de ensamblado y en soldadura de punto.
+
+Sus ventajas son que tiene un área de trabajo extendida, puede alcanzar puntos alrededor de su ubicación y es lo suficinetemente robusta para mover cargas pesadas a lo largo de su área de trabajo. 
+
+Las desventajas de esta configuración es que no puede moverse a través de obstáculos en su área de trabajo y no puede alcanzar puntos ariba de ella misma. 
+
+\paragraph{Esféricos.} 
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{./img/chapter2/esferico.png}
+    \caption{Robot esférico}
+    \label{fig:robotesferico}
+\end{figure}
+
+\paragraph{Articulado.}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{./img/chapter2/articulado.png}
+    \caption{Robot articulado}
+    \label{fig:robotarticulado}
+\end{figure}
+
+\paragraph{SCARA.}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{./img/chapter2/scara.png}
+    \caption{Robot SCARA}
+    \label{fig:robotscara}
+\end{figure}
+
+\subsubsection{Clasificación por su fuente de energía}
+
+La energía necesaria para mover las articulaciones y eslabones de un brazo robótico pueden venir de diferentes fuentes. En la actualidad, existen tres principales fuentes de energía para un brazo robótico. A continuación se mencionan.
+
+\begin{itemize}
+\itemsep0em
+\item Energía hidráulica
+\item Energía neumática
+\item Energía eléctrica
+\end{itemize}
+
+\paragraph{Energía hidráulica.} Es la fuente de energía más popular, debido principalmente a que sus motores y cilindros son pequeños y producen fuerza y torque elevados, de igual manera, pude poseer un sistema de control preciso. 
+
+Estos sistemas funcionan por un fluido que es  bombeado a través de los morores, cilindros u otros actuadores hidráulicos, convirtiendo las fuerzas de la alta presión en movimiento rotacional o lineal.
+
+Las ventajas de estos robots se centran en su gran poder de salida sin la necesidad de usar engranes reductores, así como su uso en ambientes donde utilizar energía eléctrica podría causar incendios o explosiones. 
+
+\paragraph{Energía neumática.}  Según \cite{Craig2013}, los sistemas neumáticos se encuentran en 30\% de los robots de hoy en día. Estos sistemas usan aire comprimido para suministrar la energía. La popularidad de estos brazos robóticos se da debido a que la mayoría de las industrias ya cuentan con lineas de aire comprimido antes de pensar en un brazo robótico.
+
+Las ventajas de un brazo robótico energizado con energía neumática es su costo más barato que las demás alternativas pues la matería prima es gratis, no contaminan el área de trabajo con aceites y tienen un tiempo de respuesta más rápido que los sistemas hidráulicos.
+
+Su desventaja principal es que el control no es tan preciso y, por lo regular, se diseñan con menos grados de libertad. 
+
+\paragraph{Energía eléctica.} La energía eléctrica usa servomotores, motores a pasos y motores de corriente continua, los cuales convierten la energía eléctrica en energía mecánica.
+
+Comparado con los sistemas hidráulicos, los sistemas eléctricos proveen menos fuerza y velocidad, pero son mucho mejores en precisión y repetitibilidad.
+
+Existen tres tipos principales de mootores eléctricos comúnmente usados en robots:
+
+\begin{itemize}
+\itemsep0em
+\item Motores a pasos. Son motores baratos, usados principalmente en máquinas pick an place donde la carga útil no es tan grande y se requiere un control lo suficientemente preciso.
+
+\item Servomotores de corriente directa. Ofrecen buena potencia de salida con un alto grado de de control de la posición y velocidad. 
+
+\item Servmomotres de corriente alterna sin escobillas. El estandar a utilizar hoy en día, ofrecen una potencia de salida mayor a los servomotores de corriente directa y son bastante silenciosos. Al no tener escobillas requieren practicamente cero mantenimiento.
+\end{itemize}
+
+
+
+\subsubsection{Clasificación por su método de control}
+\subsubsection{Clasificación por su método de programación}
+
+
+
+\subsection{Anatomía de un brazo robótico articulado}
+
+Está claro que la inspiración del brazo robótico viene de la anatomía humana, así que es lógico que las partes del robot se nombren como las partes similares de la anatomía humana.
+
+A continuación, se mencionan con mayor profundidad las partes de un brazo robótico, de igual manera, en la figura \ref{fig:anatomiadeunbrazo}, se hace una demostración visual de la analogía utilizada.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{./img/chapter2/anatomiabrazo.png}
+    \caption{Anatomía de un brazo robótico \cite{Gupta2016}.}
+    \label{fig:anatomiadeunbrazo}
+\end{figure}
+
+\paragraph{Hombro.} 
+
+
+
+\subsubsection{Codo}
+\subsubsection{Muñeca}
+\subsubsection{Mano}
+
+
+\subsection{Terminología de un brazo robótico}
+
+
+
+
+\subsection{Efector final}
 
 
 \section{Robótica colaborativa}
@@ -61,6 +199,9 @@ Por otra parte, en \cite{Chen2018} también se propone el desarollo de un algori
 
 Uno de los ejemplos más populares de robots colaborativos es la línea de robots UR creada por Universal Robots, quién ha vendido más de 39,000 unidades de estos cobots. Una imagen del mismo puede ser apreciada en la figura \ref{fig:ur5}.
 
+
+\subsection{Seguridad}
+
 \begin{figure}
     \centering
     \includegraphics[scale=0.5]{./img/chapter2/ur5.png}
@@ -68,5 +209,4 @@ Uno de los ejemplos más populares de robots colaborativos es la línea de robot
     \label{fig:ur5}
 \end{figure}
 
-\section{Sistemas de manufactura flexible}
-\section{Ingeniería de sistemas basado en modelos}
+\section{Diseño de un brazo robótico}
