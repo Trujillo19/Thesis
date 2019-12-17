@@ -236,14 +236,7 @@ Se seleccionó un motor de la marca Turnigy, en particular el modelo Aerodrive S
 \end{figure}
 
 
-
-
-Aquí necesito seis motores, tres ODrive, seis encoders
-Una fuente de poder 
-
 \section{Componentes mecánicos}
-
-% Dónde pongo los diferentes tipos de actuadores
 
 Una vez determinado los componentes electrónicos necesarios para el correcto funcionamiento del brazo robótico es necesario determinar los componentes mecánicos.
 
@@ -261,33 +254,53 @@ El siguiente paso es escoger un reductor de velocidad que cumpla con los requeri
 \itemsep0em
 \item Alta relación de transmisión, mayor a 10:1.
 \item Precisión, necesaria para realizar los movimientos deseados sin demasiado juego. 
-\item Efectividad de transmisión, necesaria para no perder demasiada energía
+\item Efectividad de transmisión, necesaria para no perder demasiada energía.
 \end{itemize}
 
 Estos son algunos de los más importantes, existen otros factores a considerar como el tamaño final del reductor y la facilidad de manufactura.
 
-Para el desarrollo de este brazo robótico se han considerado tres diferentes tipos de reductores de velocidad, cada uno con ventajas y desventajas que se mencionarán a continuación.
+Para el desarrollo de este brazo robótico se han considerado tres diferentes tipos de reductores de velocidad, cada uno con ventajas y desventajas que se mencionaron en la sección \ref{sec:actuadores}. Se decidió optar por un reductor cicloidal, esto debido a su gran relación de transmisión y un juego teórico nulo.  
 
-\subsubsection{Engranes planetarios}
+Para el diseño de este actuador se consultaron diferentes fuentes como \cite{Lei2012} \cite{Nachimowicz2016}, y se utilizó la siguiente formula para el diseño paramétrico en SolidWorks.
+\begin{equation}
+B_x = r  \cdot \cos(\varphi) - q \cdot \cos(\varphi + \Psi) - e \cdot \cos(N\varphi)
+\end{equation}
+\begin{equation}
+B_y = r  \cdot \sin(\varphi) + q \cdot \sin(\varphi + \Psi) + e \cdot \sin(N\varphi)
+\end{equation}
 
-El primero en esta lista es un reductor con engranes planetarios, 
+Dónde:
 
-Existen proyectos como el de [insertar cita despúes] OpenTorque Actuator de Gabrael Levine que utiliza engranes planetarios en el diseño de su actuador, logra una relación de transmisión de 8:1
+$r$ es la distancia entre el engrane central y los rollers en milímetros.
+$q$ es el radio del roller en milímetros.
+$e$ es el valor de la excentricidad en milímetros.
+$N$ es el número de rollers.
+$\Psi$ es el angulo entre $B$ y el punto central del sistema coordenado.
 
-En la imagen \ref{fig:opentorque} podemos apreciar su diseño con engranes planetarios del tipo  helicoidal así como una carcasa para el sistema de motor y actuador. 
+Para calcular $\Psi$ se utiliza la siguiente fórmula:
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=15cm, height=6cm, keepaspectratio]{./img/chapter6/opentorque.png}
-    \caption{OpenTorque Actuator por Gabrael Levine}
-    \label{fig:opentorque}
-\end{figure}
+\begin{equation}
+\Psi = \tanh \left[ \frac{\sin((1-N)\varphi)}{\frac{r}{eN}-\cos((1-N)\varphi} \right]
+\end{equation}
+Desde:
+$$
+0 \leq \theta \leq 360
+$$
 
-En esta propuesta la ventaja es la relativa facilidad de fabricación con tecnología de manufactura aditiva así como un tamaño y peso considerablemente pequeño.
+Los datos de diseño del engrane cicloidal los podemos apreciar en la tabla \ref{table:valorescicloidal}
 
-Las desventajas son su relativamente pequeño relación de transmisión y su poca eficiencia de transmisión.
-
-\subsubsection{Engrane cicloidal}
-\subsubsection{Harmonic Drive}
+\begin{table}
+\centering
+\caption{Valores de diseño del engrane cicloidal.}
+\label{table:valorescicloidal}
+\begin{tabular}{l|l|l|}
+\textbf{Descripción} & \textbf{Símbolo} & \textbf{Valor}  \\ 
+\hline
+Diámetro del engrane & D                & 80 mm.          \\
+Diámetro del roller  & d                & 5 mm.           \\
+Número de rollers    & N                & 25              \\
+Excentricidad        & e                & 1 mm.          
+\end{tabular}
+\end{table}
 
   

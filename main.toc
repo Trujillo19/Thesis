@@ -33,25 +33,30 @@
 \contentsline {paragraph}{Escenarios de colaboraci\IeC {\'o}n.}{20}% 
 \contentsline {subsection}{\numberline {2.2.1}Seguridad}{22}% 
 \contentsline {section}{\numberline {2.3}Dise\IeC {\~n}o de un brazo rob\IeC {\'o}tico}{22}% 
-\contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a}{23}% 
-\contentsline {section}{\numberline {3.1}Modelos matem\IeC {\'a}ticos}{23}% 
-\contentsline {subsection}{\numberline {3.1.1}Cinem\IeC {\'a}tica directa e inversa.}{25}% 
-\contentsline {subsubsection}{\numberline {3.1.1.1}Cinem\IeC {\'a}tica directa}{25}% 
-\contentsline {paragraph}{Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea.}{25}% 
-\contentsline {paragraph}{Convenci\IeC {\'o}n de Denavit-Hartenberg.}{27}% 
-\contentsline {subsubsection}{\numberline {3.1.1.2}Cinem\IeC {\'a}tica inversa}{28}% 
-\contentsline {subsection}{\numberline {3.1.2}Cinem\IeC {\'a}tica de la velocidad}{29}% 
-\contentsline {subsection}{\numberline {3.1.3}Modelo din\IeC {\'a}mico}{29}% 
-\contentsline {subsubsection}{\numberline {3.1.3.1}Formulaci\IeC {\'o}n Newton-Euler}{30}% 
-\contentsline {section}{\numberline {3.2}Componentes el\IeC {\'e}ctricos y electr\IeC {\'o}nicos}{31}% 
-\contentsline {section}{\numberline {3.3}Componentes mec\IeC {\'a}nicos}{32}% 
-\contentsline {subsection}{\numberline {3.3.1}Actuadores}{32}% 
-\contentsline {subsubsection}{\numberline {3.3.1.1}Engranes planetarios}{33}% 
-\contentsline {subsubsection}{\numberline {3.3.1.2}Engrane cicloidal}{34}% 
-\contentsline {subsubsection}{\numberline {3.3.1.3}Harmonic Drive}{34}% 
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{37}% 
-\contentsline {chapter}{Anexos}{38}% 
-\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{38}% 
-\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{40}% 
-\contentsline {section}{Anexo 3. Cinem\IeC {\'a}tica inversa}{40}% 
-\contentsline {section}{Anexo 4. Din\IeC {\'a}mica}{41}% 
+\contentsline {subsection}{\numberline {2.3.1}Actuadores}{22}% 
+\contentsline {subsubsection}{\numberline {2.3.1.1}Engranes planetarios}{23}% 
+\contentsline {subsubsection}{\numberline {2.3.1.2}Harmonic Drive}{23}% 
+\contentsline {subsubsection}{\numberline {2.3.1.3}Engrane cicloidal}{23}% 
+\contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a}{24}% 
+\contentsline {section}{\numberline {3.1}Modelos matem\IeC {\'a}ticos}{24}% 
+\contentsline {subsection}{\numberline {3.1.1}Cinem\IeC {\'a}tica directa e inversa.}{26}% 
+\contentsline {subsubsection}{\numberline {3.1.1.1}Cinem\IeC {\'a}tica directa}{26}% 
+\contentsline {paragraph}{Matriz de transformaci\IeC {\'o}n homog\IeC {\'e}nea.}{26}% 
+\contentsline {paragraph}{Convenci\IeC {\'o}n de Denavit-Hartenberg.}{28}% 
+\contentsline {subsubsection}{\numberline {3.1.1.2}Cinem\IeC {\'a}tica inversa}{29}% 
+\contentsline {subsection}{\numberline {3.1.2}Cinem\IeC {\'a}tica de la velocidad}{30}% 
+\contentsline {subsection}{\numberline {3.1.3}Modelo din\IeC {\'a}mico}{30}% 
+\contentsline {subsubsection}{\numberline {3.1.3.1}Formulaci\IeC {\'o}n Newton-Euler}{31}% 
+\contentsline {section}{\numberline {3.2}Componentes el\IeC {\'e}ctricos y electr\IeC {\'o}nicos}{32}% 
+\contentsline {section}{\numberline {3.3}Componentes mec\IeC {\'a}nicos}{33}% 
+\contentsline {subsection}{\numberline {3.3.1}Actuadores}{33}% 
+\contentsline {chapter}{\numberline {4}Resultados y conclusi\IeC {\'o}n}{36}% 
+\contentsline {section}{\numberline {4.1}Resultados}{36}% 
+\contentsline {section}{\numberline {4.2}Conclusi\IeC {\'o}n}{36}% 
+\contentsline {section}{\numberline {4.3}Trabajos futuros}{36}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{39}% 
+\contentsline {chapter}{Anexos}{40}% 
+\contentsline {section}{Anexo 1. Funci\IeC {\'o}n de creaci\IeC {\'o}n del brazo rob\IeC {\'o}tico}{40}% 
+\contentsline {section}{Anexo 2. Cinem\IeC {\'a}tica directa}{42}% 
+\contentsline {section}{Anexo 3. Cinem\IeC {\'a}tica inversa}{42}% 
+\contentsline {section}{Anexo 4. Din\IeC {\'a}mica}{43}% 

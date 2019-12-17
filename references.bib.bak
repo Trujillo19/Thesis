@@ -269,10 +269,21 @@
 }
 
 @Article{odrivedoc,
-  author = {Oskar Weigl.},
-  title  = {ODrive motor guide},
-  year   = {2016},
-  url    = {https://docs.google.com/spreadsheets/d/12vzz7XVEK6YNIOqH0jAz51F5VUpc-lJEs3mmkWP1H4Y/edit#gid=0},
+  author  = {Oskar Weigl.},
+  title   = {ODrive motor guide},
+  journal = {https://docs.google.com/spreadsheets/d/12vzz7XVEK6YNIOqH0jAz51F5VUpc-lJEs3mmkWP1H4Y/edit},
+  year    = {2016},
+  url     = {https://docs.google.com/spreadsheets/d/12vzz7XVEK6YNIOqH0jAz51F5VUpc-lJEs3mmkWP1H4Y/edit#gid=0},
+}
+
+@InProceedings{Sensinger2012,
+  author    = {Jonathon W. Sensinger and James H. Lipsey},
+  title     = {Cycloid vs. harmonic drives for use in high ratio, single stage robotic transmissions},
+  booktitle = {2012 {IEEE} International Conference on Robotics and Automation},
+  year      = {2012},
+  month     = {may},
+  publisher = {{IEEE}},
+  doi       = {10.1109/icra.2012.6224739},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -76,6 +76,18 @@ S.~Chen, M.~Luo, and F.~He, ``A universal algorithm for sensorless collision
   detection of robot actuator faults,'' {\em Advances in Mechanical
   Engineering}, vol.~10, p.~168781401774071, jan 2018.
 
+\bibitem{Pham2018}
+A.-D. Pham and H.-J. Ahn, ``High precision reducers for industrial robots
+  driving 4th industrial revolution: State of arts, analysis, design,
+  performance evaluation and perspective,'' {\em International Journal of
+  Precision Engineering and Manufacturing-Green Technology}, vol.~5,
+  pp.~519--533, aug 2018.
+
+\bibitem{Sensinger2012}
+J.~W. Sensinger and J.~H. Lipsey, ``Cycloid vs. harmonic drives for use in high
+  ratio, single stage robotic transmissions,'' in {\em 2012 {IEEE}
+  International Conference on Robotics and Automation}, {IEEE}, may 2012.
+
 \bibitem{Dombre2007}
 W.~K. Etienne~Dombre, {\em Robot Manipulators: Modeling, Performance Analysis
   and Control (Control Systems, Robotics, and Manufacturing series)}.
@@ -105,5 +117,14 @@ S.~Chen, M.~Luo, O.~Abdelaziz, and G.~Jiang, ``A general analytical algorithm
 O.~Weigl., ``Odrive motor guide,'' {\em
   https://docs.google.com/spreadsheets/d/12vzz7XVEK6YNIOqH0jAz51F5VUpc-lJEs3mmkWP1H4Y/edit},
   2016.
+
+\bibitem{Lei2012}
+L.~Lei, Y.~Tao, and T.~M. Guan, ``Parametric design of cycloid gear based on
+  {SolidWorks},'' {\em Advanced Materials Research}, vol.~538-541,
+  pp.~3106--3109, jun 2012.
+
+\bibitem{Nachimowicz2016}
+J.~Nachimowicz and S.~Rafa{\l}owski, ``Modelling the meshing of cycloidal
+  gears,'' {\em Acta Mechanica et Automatica}, vol.~10, pp.~137--140, jun 2016.
 
 \end{thebibliography}
