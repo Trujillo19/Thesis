@@ -287,7 +287,7 @@ $$
 0 \leq \theta \leq 360
 $$
 
-Los datos de diseño del engrane cicloidal los podemos apreciar en la tabla \ref{table:valorescicloidal}
+Los datos de diseño del engrane cicloidal los podemos apreciar en la tabla \ref{table:valorescicloidal}.
 
 \begin{table}
 \centering
@@ -302,5 +302,24 @@ Número de rollers    & N                & 25              \\
 Excentricidad        & e                & 1 mm.          
 \end{tabular}
 \end{table}
+
+
+\begin{equation}
+(38.4 + 1.6) \cdot \cos(2 \cdot \pi \cdot \theta) + 1 \cdot \cos((38.0 + 1.6) \cdot 2 \cdot \pi \cdot \theta / 1.6)
+\end{equation}
+\begin{equation}
+(38.4 + 1.6) \cdot \sin(2 \cdot \pi \cdot \theta) + 1 \cdot \sin((38.0 + 1.6) \cdot 2 \cdot \pi \cdot \theta / 1.6)
+\end{equation}
+
+Con la ecuación particulizada utilizamos SOLIDWORKS para crear la pieza que será impresa en plástico ABS por el método de manufactura aditiva que se abordó en -Ingrese sección aquí-.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.6]{./img/chapter3/cicloidaldisk.png}
+    \caption{Engrane cicloidal}
+    \label{fig:cicloidaldisk}
+\end{figure}
+
+Como vimos, el disco cicloidal es sólo una parte de un reductor cicloidal, para que el mecanismo funcione son necesarias las otras piezas, a continuación se muestra el y el .
 
   

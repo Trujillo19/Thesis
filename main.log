@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.25)  17 DEC 2019 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.25)  17 DEC 2019 18:37
 entering extended mode
 **./main.tex
 (main.tex
@@ -748,7 +748,7 @@ File: ./img/chapter2/ur5.png Graphic file (type png)
 <use ./img/chapter2/ur5.png>
 Package pdftex.def Info: ./img/chapter2/ur5.png  used on input line 207.
 (pdftex.def)             Requested size: 175.6558pt x 175.6558pt.
-) [22 <./img/chapter2/ur5.png>]
+ [22 <./img/chapter2/ur5.png>])
 [23]
 \openout2 = `chapter3/chapter3.aux'.
 
@@ -792,12 +792,15 @@ File: ./img/chapter3/sk36374.jpg Graphic file (type jpg)
 <use ./img/chapter3/sk36374.jpg>
 Package pdftex.def Info: ./img/chapter3/sk36374.jpg  used on input line 233.
 (pdftex.def)             Requested size: 255.65709pt x 187.45175pt.
- [32] [33 <./img/chapter3/sk36374.jpg>]
-
-LaTeX Warning: Reference `table:valorescicloidal' on page 34 undefined on input
- line 290.
-
-) [34] [35]
+ [32] [33 <./img/chapter3/sk36374.jpg>] [34]
+<./img/chapter3/cicloidaldisk.png, id=148, 354.82562pt x 338.76563pt>
+File: ./img/chapter3/cicloidaldisk.png Graphic file (type png)
+<use ./img/chapter3/cicloidaldisk.png>
+Package pdftex.def Info: ./img/chapter3/cicloidaldisk.png  used on input line 3
+18.
+(pdftex.def)             Requested size: 212.897pt x 203.26093pt.
+)
+[35 <./img/chapter3/cicloidaldisk.png>]
 \openout2 = `chapter4/chapter4.aux'.
 
  (chapter4/chapter4.tex
@@ -833,42 +836,35 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (chapter1/chapter1.aux)
 (chapter2/chapter2.aux) (chapter3/chapter3.aux) (chapter4/chapter4.aux)
-(finalchapter/finalchapter.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(finalchapter/finalchapter.aux)) ) 
 Here is how much of TeX's memory you used:
- 6959 strings out of 492895
- 99685 string characters out of 3123735
- 295287 words of memory out of 3000000
- 10664 multiletter control sequences out of 15000+200000
+ 6968 strings out of 492895
+ 99904 string characters out of 3123735
+ 295310 words of memory out of 3000000
+ 10672 multiletter control sequences out of 15000+200000
  11836 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,15n,58p,563b,1916s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-tctt1200.pk> <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\tcrm1200.pk> <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Angel/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Angel/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
-s/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr17.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Angel/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Angel/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ange
-l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><
-C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10
-.pfb>
-Output written on main.pdf (45 pages, 993825 bytes).
+ <C:\Users\Angel\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/jknappen/ec/dpi600\tctt1200.pk> <C:\Users\Angel\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Angel\AppData\
+Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/Angel
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmex10.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Angel/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Angel/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Angel/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb><C:/Users/Angel/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (45 pages, 1013952 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
+ 234 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
