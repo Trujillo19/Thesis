@@ -220,6 +220,8 @@ El algoritmo realizado está disponible para consulta en el Anexo 4. Así como e
 
 Conforme al análisis realizado en el capítulo anterior es posible empezar la selección de componentes, se empezará por la selección de motores.
 
+\subsection{Selección de motores}
+
 Conforme a lo expuesto en el capítulo \ref{chap:Marcoteorico}, se optó por utilizar motores de corriente continua sin escobillas, conocidos también por sus siglas en inglés BLDC.
 
 De acuerdo con los datos proporcionados por la tabla \ref{table:maxtorque}, la articulación con un torque más demandante es la articulación dos, conocida como el hombro del robot, esta necesita un torque total de 25 N para levantar una carga útil de 2 Kg. Siendo esta la parte más desafiante del brazo robótico, se empezará por el desarrollo de ésta.
@@ -228,12 +230,58 @@ Es prácticamente imposible encontrar un motor con ese torque, por lo que será 
 
 Se seleccionó un motor de la marca Turnigy, en particular el modelo Aerodrive SK3 - 6374-149KV, pues según datos experimentales realizados en \cite{odrivedoc} tiene un torque máximo de 3.77 N. Es posible apreciar una imagen de este motor en la figura \ref{fig:sk36374}.
 
+La información experimental del motor SK3 6374 y de los demás motores seleccionados se puede apreciar en la table \ref{table:motordata}.
+
 \begin{figure}
     \centering
     \includegraphics[scale=0.6]{./img/chapter3/sk36374.jpg}
     \caption{Motor a utilizar en la articulación dos.}
     \label{fig:sk36374}
 \end{figure}
+
+\begin{table}
+\centering
+\label{table:motordata}
+\caption{Datos de motor SK3 6374}
+\begin{tabular}{l|l|l|l|l|l|}
+Motor    & Kv    & Corriente máxima & Voltaje máximo & Peso & Torque  \\
+         & rpm/V & A                & V              & g    & N $\cdot$ m   \\ 
+\hline
+SK3 6374 & 149   & 68               & 48             & 840  & 3.77   
+\end{tabular}
+\end{table}
+
+\subsection{Selección de sensores de posición}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{./img/chapter3/encoder.png}
+    \caption{Odrive v3.5}
+    \label{fig:odrive}
+\end{figure}
+
+
+\subsection{Selección de dispositivos de control}
+
+En la selección de un dispositivo de control se tenían los siguientes parámetros:
+
+\begin{itemize}
+\itemsep0em
+\item Soporte una variedad de voltajes de entrada
+\item Soporte una considerable corriente de salida (70-100 A)
+\item Control preciso de la posición
+\item Poder medir la corriente suministrada al motor
+\end{itemize}
+
+Estas especificaciónes fueron cubiertas con la placa ODrive desarrollada por Oskar Weigl. La imagen de la placa se puede encontrar en la figura \ref{fig:odrive}.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.2]{./img/chapter3/odrive.jpeg}
+    \caption{Odrive v3.5}
+    \label{fig:odrive}
+\end{figure}
+
+\subsection{Selección de fuentes de poder}
 
 
 \section{Componentes mecánicos}
@@ -320,6 +368,14 @@ Con la ecuación particulizada utilizamos SOLIDWORKS para crear la pieza que ser
     \label{fig:cicloidaldisk}
 \end{figure}
 
-Como vimos, el disco cicloidal es sólo una parte de un reductor cicloidal, para que el mecanismo funcione son necesarias las otras piezas, a continuación se muestra el y el .
+La configuración utilizada en \ref{table:valorescicloidal} nos da como resultado un engrane reductor de 25:1, es decir, en teoría, para el motor SK3 6374 descrito en \ref{table:motordata}, podrámos obtener un torque máximo de 94.25 N $\cdot$ m. 
+
+Como vimos en -ingrese sección- el disco cicloidal es sólo una parte de un reductor cicloidal, para que el mecanismo funcione son necesarias las otras piezas, a continuación se muestra el y el .
+
+El disco, al estar montado con una excentricidad, existe un desbalance de fuerzas cuando se alcanzan altas velocidades, por esta razón, se utilizan dos discos, cada uno montados con un diferencia de 180\degree para alcanzar un balance.
+
+
+
+
 
   
